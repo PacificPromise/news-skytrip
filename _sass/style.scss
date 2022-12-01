@@ -1,5 +1,12 @@
-$cool-red: #f44336;
-
-p {
-  color: $cool-red;
+/* Mixin */
+$mobile-width: 480px; 
+$tablet-width: 768px; 
+$desktop-width: 1024px;  
+@mixin tablet { @media (min-width: #{$tablet-width}) {       
+   @content;   
+ } 
+}  
+@mixin desktop {  @media (min-width: #{$desktop-width}) {     
+  @content;  
+ } 
 }
