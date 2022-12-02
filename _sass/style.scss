@@ -1,5 +1,22 @@
+//Vairain
 
 /* Mixin */
+@mixin title ($size,$color) {
+  font-size: $size;
+  color: $color;
+  font-family: Arial, Helvetica, sans-serif ;
+  text-decoration: none;
+  text-align: justify;
+}
+@mixin row-nowrap {
+  display: flex;
+  flex-flow: row nowrap;
+}
+@mixin column-mowarp {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
 $mobile-width: 480px; 
 $tablet-width: 768px; 
 $desktop-width: 1024px;  
@@ -11,8 +28,119 @@ $desktop-width: 1024px;
   @content;  
  } 
 }
-.body-page {
-  h1 {
-    color: rgb(207, 32, 43);
+.container {
+  @include column-mowarp()
+  padding: 2%;
+  position: relative;
+  margin: 0 auto;
+}
+.trending {
+@include column-mowarp();
+@include desktop() {
+  @include row-nowrap();
+}
+@include tablet() {
+  @include row-nowrap();
+  justify-content: space-around;
+  gap: 4%;
+}
+@include desktop() {
+
+}
+}
+.trending-1 {
+  @include column-mowarp();
+  @include tablet() {
+    flex: 3;
+  }
+  @include desktop() {
+    flex: 3;
+  }
+  .trending-1-img {
+    img {
+      width: 100%;
+      @include tablet() {
+      height: 326.45px;
+      }
+      @include desktop() {
+      height: 326.45px;
+     }
+    }
+  }
+  .more-info {
+    @include row-nowrap();
+    justify-content: center;
+    align-items: baseline;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ff6d19;
+    @include tablet() {
+      border-bottom: none;
+    }
+    @include desktop() {
+      border-bottom: none;
+    }
+    .link-star {
+      text-decoration: none;
+      font-size: 14px;
+      line-height: 16px;
+      color: #ff6d19;
+      font-weight: bold;
+      margin-right: 5px;
+    }
+    p {
+      @include title(14px,#666 )
+      line-height: 20px;
+    }
   }
 }
+.trending-1-title {
+  @include title(22px,#333);
+  text-decoration: none;
+  font-weight: bolder;
+  line-height: 28px;
+  
+  @include tablet() {
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
+
+.trending-2 {
+  display: none;
+  @include tablet() {
+    @include column-mowarp();
+    flex: 1;
+
+    .trending-2-img {
+      img {
+        height: 326.45px;
+      }
+    }
+  }
+  @include desktop() {
+    @include column-mowarp();
+    flex: 1;
+  }  
+}
+  
+
+.trending-2-title {
+  @include title(19px,#222);
+  padding: 12px 15px 20px;
+  font-weight: bold;
+  background-image: linear-gradient(#ebebeb,#fff);
+}
+.news {
+  @include column-mowarp();
+  .content-news {
+    @include column-mowarp();
+    
+    .content-news-title {
+      a {
+        color: red;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
