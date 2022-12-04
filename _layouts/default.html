@@ -11,18 +11,16 @@
 
 <body>
   <div class="container">
-    <div class="nav-bar" id="nav-bar">
-      <a href="#" class="active">Home <i class="fa fa-home" aria-hidden="true"></i></a>
-      <a href="#">Blog <i class="fa fa-book"></i></a>
-      <a href="#">Contact <i class="fa fa-envelope"></i></a>
-      <a href="#">About <i class="fa fa-user"></i></a>
-      <!-- <div class="right-lnk">
-        <a href="#">Login / Signup</i></a>
-      </div> -->
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
+    <nav class="top-nav" id="top-nav">
+      <a href="#" class="logo">
+        <img src="{{ site.baseurl }}/assets/images/logo.webp" alt="Logo">
       </a>
-    </div>
+      <a href="#" class="active">Home</a>
+      <a href="#">About</a>
+      <a href="#">News</a>
+      <a href="#">Contact</a>
+      <button class="icon" onclick="toggle()"><i class="fa fa-bars"></i></button>
+    </nav>
   </div>
 
   <div class="container">
@@ -36,15 +34,8 @@
   <div class="container">
     <div class="footer"></div>
   </div>
+  <script src="{{ site.baseurl }}/assets/js/default.js"></script>
   <script>
-    function myFunction() {
-      var x = document.getElementById("nav-bar");
-      if (x.className === "nav-bar") {
-        x.className += " responsive";
-      } else {
-        x.className = "nav-bar";
-      }
-    }
   </script>
 </body>
 

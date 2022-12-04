@@ -3,6 +3,11 @@ $mobile-width: 480px;
 $tablet-width: 768px;
 $desktop-width: 1024px;
 
+$primary-background: #731030;
+$primary-background-dark: #570b23;
+$primary-background-light: #bd194e;
+$white: #fff;
+
 @mixin mobile-only {
   @media (max-width: #{$mobile-width - 1px}) {
     @content;
@@ -40,51 +45,76 @@ $desktop-width: 1024px;
 
 body {
   margin: 0px;
+  padding: 0;
 }
 
-.nav-bar {
+.top-nav {
   overflow: hidden;
-  background-color: #000000;
+  background-color: $primary-background;
   a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: $white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 13px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: courier new;
-    font-weight: bold;
     &:hover {
-      background-color: #ff5959;
-      color: black;
+      background-color: $primary-background-light;
+      color: $white;
     }
     &.active {
-      background-color: #ff5959;
-      color: white;
+      background-color: $primary-background-light;
+      color: $white;
     }
     &:not(:first-child) {
       @include mobile-and-tablet {
         display: none;
       }
     }
+  }
+  .logo {
+    float: left;
+    display: block;
+    color: $white;
+    text-align: center;
+    padding: 7px 10px 3px 10px;
+    margin-top: 2px;
+    text-decoration: none;
+    font-size: 17px;
+    img {
+      width: 30px;
+      height: auto;
+    }
+    &:hover {
+      background: transparent;
+    }
+  }
+  button {
+    display: none;
+    color: $white;
     &.icon {
       @include mobile-and-tablet {
+        background: $primary-background-dark;
         float: right;
         display: block;
+        padding: 15px 17px;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+      }
+      &:focus &:hover {
+        @include mobile-and-tablet {
+          border: 0;
+          outline: none;
+          background: #b3b3b3;
+        }
       }
     }
   }
   &.responsive {
     @include mobile-and-tablet {
       position: relative;
-    }
-    .icon {
-      @include mobile-and-tablet {
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
     }
     a {
       @include mobile-and-tablet {
@@ -93,9 +123,12 @@ body {
         text-align: left;
       }
     }
+    .icon {
+      @include mobile-and-tablet {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    }
   }
-}
-
-.right-lnk {
-  float: right;
 }
