@@ -1,6 +1,6 @@
 ---
 ---
-window.toggle = () -> 
+window.toggleNavigation = () -> 
 	nav = document.getElementById("top-nav")
 	if nav.className is "top-nav"
 		nav.className += ' responsive'
