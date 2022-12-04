@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/default.css" />
-  </head>
 
-  <body>
-    <div class="container">
-      <div class="nav-bar"></div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/default.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav-bar" id="nav-bar">
+      <a href="#" class="active">Home <i class="fa fa-home" aria-hidden="true"></i></a>
+      <a href="#">Blog <i class="fa fa-book"></i></a>
+      <a href="#">Contact <i class="fa fa-envelope"></i></a>
+      <a href="#">About <i class="fa fa-user"></i></a>
+      <!-- <div class="right-lnk">
+        <a href="#">Login / Signup</i></a>
+      </div> -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
+  </div>
 
-    <div class="container">
-      <div class="trending"></div>
+  <div class="container">
+    <div class="trending"></div>
 
-      <div class="body-page">
-        <h1>21331</h1>
-      </div>
+    <div class="body-page">
+      <h1>21331</h1>
     </div>
+  </div>
 
-    <div class="container">
-      <div class="footer"></div>
-    </div>
-  </body>
+  <div class="container">
+    <div class="footer"></div>
+  </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("nav-bar");
+      if (x.className === "nav-bar") {
+        x.className += " responsive";
+      } else {
+        x.className = "nav-bar";
+      }
+    }
+  </script>
+</body>
+
 </html>

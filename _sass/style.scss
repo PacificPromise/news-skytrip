@@ -1,12 +1,101 @@
 /* Mixin */
-$mobile-width: 480px; 
-$tablet-width: 768px; 
-$desktop-width: 1024px;  
-@mixin tablet { @media (min-width: #{$tablet-width}) {       
-   @content;   
- } 
-}  
-@mixin desktop {  @media (min-width: #{$desktop-width}) {     
-  @content;  
- } 
+$mobile-width: 480px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin mobile-only {
+  @media (max-width: #{$mobile-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet-only {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop-only {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin mobile-and-tablet {
+  @media (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+body {
+  margin: 0px;
+}
+
+.nav-bar {
+  overflow: hidden;
+  background-color: #000000;
+  a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: courier new;
+    font-weight: bold;
+    &:hover {
+      background-color: #ff5959;
+      color: black;
+    }
+    &.active {
+      background-color: #ff5959;
+      color: white;
+    }
+    &:not(:first-child) {
+      @include mobile-and-tablet {
+        display: none;
+      }
+    }
+    &.icon {
+      @include mobile-and-tablet {
+        float: right;
+        display: block;
+      }
+    }
+  }
+  &.responsive {
+    @include mobile-and-tablet {
+      position: relative;
+    }
+    .icon {
+      @include mobile-and-tablet {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    }
+    a {
+      @include mobile-and-tablet {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    }
+  }
+}
+
+.right-lnk {
+  float: right;
 }
