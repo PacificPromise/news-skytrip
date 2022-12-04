@@ -1,216 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta
-      name="viewport"
-      content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no"
-    />
-    <meta charset="utf-8" />
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/default.css" />
-  </head>
 
-  <body>
-    <div class="container">
-      <div class="nav-bar"></div>
-    </div>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{ page.title }}</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/default.css" />
+</head>
 
-    <div class="container">
-      <div class="trending">
-        <div class="trending-1">
-          <a href="/" class="trending-1-img">
-            <img
-              src="{{ site.baseurl }}/assets/images/trending-1-img.webp"
-              alt="Nhật Bản tạo địa chấn đánh bại Tây Ban Nha, đứng đầu bảng tử thần"
-            />
-          </a>
-          <a href="/" class="trending-1-title"
-            >Nhật Bản tạo địa chấn đánh bại Tây Ban Nha, đứng đầu bảng "tử
-            thần"</a
-          >
-          <div class="more-info">
-            <a href="/" class="link-star">SPORT</a>
-            <p>
-              Chiến thắng trước đội tuyển Tây Ban Nha giúp đội tuyển Nhật Bản
-              giành ngôi đầu bảng E và loại đội tuyển Đức khỏi World Cup 2022.
+<body>
+	<nav class="top-nav" id="top-nav">
+		<a href="#" class="logo">
+			<img src="{{ site.baseurl }}/assets/images/logo.webp" alt="Logo">
+		</a>
+		<a href="#" class="active">Home</a>
+		<a href="#">About</a>
+		<a href="#">News</a>
+		<a href="#">Contact</a>
+		<button class="icon" onclick="toggle()"><i class="fa fa-bars"></i></button>
+	</nav>
+	<div class="container">
+		<div class="trending">
+			<div class="trending-1">
+				<a href="/" class="trending-1-img">
+					<img
+						src="{{ site.baseurl }}/assets/images/trending-1-img.webp"
+						alt="Nhật Bản tạo địa chấn đánh bại Tây Ban Nha, đứng đầu bảng tử thần"
+					/>
+				</a>
+				<a href="/" class="trending-1-title"
+					>Nhật Bản tạo địa chấn đánh bại Tây Ban Nha, đứng đầu bảng "tử
+          thần"</a
+				>
+				<div class="more-info">
+					<a href="/" class="link-star">SPORT</a>
+					<p>
+						Chiến thắng trước đội tuyển Tây Ban Nha giúp đội tuyển Nhật Bản
+						giành ngôi đầu bảng E và loại đội tuyển Đức khỏi World Cup 2022.
+					</p>
+				</div>
+			</div>
+			<div class="trending-2">
+				<a href="/" class="trending-2-img">
+					<img
+						src="{{ site.baseurl }}/assets/images/trending-2-img.webp"
+						alt=""
+					/>
+				</a>
+				<a href="/" class="trending-2-title"
+					>Liên quan đến vụ bé gái 5 tuổi bị chủ cửa hàng quay video đăng tải
+					lên mạng kèm cáo buộc “ăn cắp”, chính quyền sẽ đưa bé đi giám định
+					sức khỏe, làm căn cứ xử lý.
+				</a>
+			</div>
+		</div>
+		<div class="news">
+			<div class="content-news">
+				<div class="content-news-title">
+					<a href="/"
+						>Loạt khoảnh khắc "tình bể tình" của Doãn Hải My và Đoàn Văn Hậu:
+						Độ đẹp đôi xứng đáng 10 điểm!</a
+					>
+				</div>
+				<div class="content-news-img">
+					<a href="/"
+						><img
+							src="{{ site.baseurl }}/assets/images/content-news-img.webp"
+							alt=""
+						/>
+					</a>
+					<div class="more-info-news">
+						<a href="/" class="link-star">SPORT</a>
+						<p>
+							Thế giới bóng đá không thiếu các "nam thần" không chỉ tài năng
+							mà còn có vẻ ngoài điển trai, luôn thu hút các fan nữ ...
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="content-news">
+				<div class="content-news-title">
+					<a href="/"
+						>Đằng sau câu chuyện chàng trai không muốn thuê nhà, đành ngủ lại
+						công ty
+					</a>
+				</div>
+				<div class="content-news-img">
+					<a href="/"
+						><img
+							src="{{ site.baseurl }}/assets/images/trending-3.webp"
+							alt=""
+						/>
+					</a>
+					<div class="more-info-news">
+						<a href="/" class="link-star">SPORT</a>
+						<p>
+							"Tâm trạng tôi thường không tốt vào ban đêm, bởi cảm giác mệt
+              mỏi sau cả ngày làm việc. Đôi khi tôi tự hỏi mình đang cố ...
             </p>
           </div>
         </div>
-        <div class="trending-2">
-          <a href="/" class="trending-2-img">
-            <img
-              src="{{ site.baseurl }}/assets/images/trending-2-img.webp"
+      </div>
+      <div class="content-news">
+        <div class="content-news-title">
+          <a href="/"
+            >Fan vỡ òa sung sướng khi Nhật Bản tạo địa chấn, giành vé
+            knock-out World Cup 2022
+          </a>
+        </div>
+        <div class="content-news-img">
+          <a href="/"
+            ><img
+              src="{{ site.baseurl }}/assets/images/content-news-img-3.webp"
               alt=""
             />
           </a>
-          <a href="/" class="trending-2-title"
-            >Liên quan đến vụ bé gái 5 tuổi bị chủ cửa hàng quay video đăng tải
-            lên mạng kèm cáo buộc “ăn cắp”, chính quyền sẽ đưa bé đi giám định
-            sức khỏe, làm căn cứ xử lý.
+          <div class="more-info-news">
+            <a href="/" class="link-star">SPORT</a>
+            <p>
+              Đội tuyển Nhật Bản đã tạo ra cơn "địa chấn" tại World Cup 2022
+              khi giành chiến thắng 2-1 trước đối thủ được đánh giá
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="content-news">
+        <div class="content-news-title">
+          <a href="/"
+            >Mưa lũ bất thường, một người mất tích ở Huế</a
+          >
+        </div>
+        <div class="content-news-img">
+          <a href="/"
+            ><img
+              src="{{ site.baseurl }}/assets/images/trending-4.webp"
+              alt=""
+            />
           </a>
-        </div>
-      </div>
-      <div class="news">
-        <div class="content-news">
-          <div class="content-news-title">
-            <a href="/"
-              >Loạt khoảnh khắc "tình bể tình" của Doãn Hải My và Đoàn Văn Hậu:
-              Độ đẹp đôi xứng đáng 10 điểm!</a
-            >
-          </div>
-          <div class="content-news-img">
-            <a href="/"
-              ><img
-                src="{{ site.baseurl }}/assets/images/content-news-img.webp"
-                alt=""
-              />
-            </a>
-            <div class="more-info-news">
-              <a href="/" class="link-star">SPORT</a>
-              <p>
-                Thế giới bóng đá không thiếu các "nam thần" không chỉ tài năng
-                mà còn có vẻ ngoài điển trai, luôn thu hút các fan nữ ...
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="content-news">
-          <div class="content-news-title">
-            <a href="/"
-              >Đằng sau câu chuyện chàng trai không muốn thuê nhà, đành ngủ lại
-              công ty
-            </a>
-          </div>
-          <div class="content-news-img">
-            <a href="/"
-              ><img
-                src="{{ site.baseurl }}/assets/images/trending-3.webp"
-                alt=""
-              />
-            </a>
-            <div class="more-info-news">
-              <a href="/" class="link-star">SPORT</a>
-              <p>
-                "Tâm trạng tôi thường không tốt vào ban đêm, bởi cảm giác mệt
-                mỏi sau cả ngày làm việc. Đôi khi tôi tự hỏi mình đang cố ...
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="content-news">
-          <div class="content-news-title">
-            <a href="/"
-              >Fan vỡ òa sung sướng khi Nhật Bản tạo địa chấn, giành vé
-              knock-out World Cup 2022
-            </a>
-          </div>
-          <div class="content-news-img">
-            <a href="/"
-              ><img
-                src="{{ site.baseurl }}/assets/images/content-news-img-3.webp"
-                alt=""
-              />
-            </a>
-            <div class="more-info-news">
-              <a href="/" class="link-star">SPORT</a>
-              <p>
-                Đội tuyển Nhật Bản đã tạo ra cơn "địa chấn" tại World Cup 2022
-                khi giành chiến thắng 2-1 trước đối thủ được đánh giá
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="content-news">
-          <div class="content-news-title">
-            <a href="/"
-              >Mưa lũ bất thường, một người mất tích ở Huế</a
-            >
-          </div>
-          <div class="content-news-img">
-            <a href="/"
-              ><img
-                src="{{ site.baseurl }}/assets/images/trending-4.webp"
-                alt=""
-              />
-            </a>
-            <div class="more-info-news">
-              <a href="/" class="link-star">SPORT</a>
-              <p>
-                Một người đàn ông khi di chuyển gần khu vực sông Khe Thị, chảy qua địa bàn xã Lộc Trì và thị trấn Phú Lộc đã bị lũ cuốn trôi mất tích.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="content-news">
-          <div class="content-news-title">
-            <a href="/"
-              >Ngắm chùm ảnh "ngày xửa ngày xưa" của Hải Tú: Nhan sắc năm 15 tuổi ấn tượng, bây giờ có khác?</a
-            >
-          </div>
-          <div class="content-news-img">
-            <a href="/"
-              ><img
-                src="{{ site.baseurl }}/assets/images/trending-5.webp"
-                alt=""
-              />
-            </a>
-            <div class="more-info-news">
-              <a href="/" class="link-star">SPORT</a>
-              <p>
-                Từ khi còn là nữ sinh cấp 3, Hải Tú đã được mệnh danh là "nàng thơ" của làng mẫu ảnh.
-              </p>
-            </div>
+          <div class="more-info-news">
+            <a href="/" class="link-star">SPORT</a>
+            <p>
+              Một người đàn ông khi di chuyển gần khu vực sông Khe Thị, chảy qua địa bàn xã Lộc Trì và thị trấn Phú Lộc đã bị lũ cuốn trôi mất tích.
+            </p>
           </div>
         </div>
       </div>
+      <div class="content-news">
+        <div class="content-news-title">
+          <a href="/"
+            >Ngắm chùm ảnh "ngày xửa ngày xưa" của Hải Tú: Nhan sắc năm 15 tuổi ấn tượng, bây giờ có khác?</a
+          >
+        </div>
+        <div class="content-news-img">
+          <a href="/"
+            ><img
+              src="{{ site.baseurl }}/assets/images/trending-5.webp"
+              alt=""
+            />
+          </a>
+          <div class="more-info-news">
+            <a href="/" class="link-star">SPORT</a>
+            <p>
+              Từ khi còn là nữ sinh cấp 3, Hải Tú đã được mệnh danh là "nàng thơ" của làng mẫu ảnh.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      <div class="body-page"></div>
+    <div class="body-page"></div>
+  </div>
+  <div class="footer">
+    <div class="responsible">
+      <h3>CHỊU TRÁCH NHIỆM QUẢN LÝ NỘI DUNG</h3>
+      <p>Bà Nguyễn Thị A</p>
     </div>
-    <div class="footer">
-      <div class="responsible">
-        <h3>CHỊU TRÁCH NHIỆM QUẢN LÝ NỘI DUNG</h3>
-        <p>Bà Nguyễn Thị A</p>
-      </div>
-      <div class="feedback">
-        <h3>Ý KIẾN BÀI VIẾT</h3>
-        <div class="e-mail">
-          <a href="/">abc@gmail.com</a>
-          <a href="/">Câu hỏi thường gặp</a>
-        </div>
-      </div>
-      <div class="content-cooperation">
-        <h3>HỢP TÁC NỘI DUNG</h3>
-        <div class="e-mail">
-          <a href="/">xyz@gmail.com</a>
-          <a href="tel:+843579459xx">0357945xx9xx</a>
-        </div>
-      </div>
-      <div class="ad">
-        <h3>HỖ TRỢ QUẢNG CÁO</h3>
-        <div class="ad-e-mail">
-          <a href="/">123@gmail.com</a>
-          <div class="phonenumber-ad">
-            <a href="tel:+843579459xy">0357945xx9xx</a>
-            <p> - </p>
-            <a href="tel:+84xxxxxxxxy">035xxxxxxx</a>
-          </div>
-        </div>
-      </div>
-      <div class="adress">
-        <h3>TRỤ SỞ HÀ NỘI</h3>
-        <p>Tầng xx, xx, xx, xx Toà nhà Bottom Building - Hapulico Complex, Số x Nguyễn Huy Tưởng, Thanh Xuân, Hà Nội.</p>
-      </div>
-      <div class="license">
-        <p>Giấy phép thiết lập trang thông tin điện tử tổng hợp trên mạng số xxxx/GP-TTĐT do Sở Thông tin và Truyền thông Hà Nội cấp ngày 10 tháng 4 năm 2019</p>
-      </div>
-      <div class="copyright">
-        <p>© Copyright 2007 - 2022 - CÔNG TY CỔ PHẦN VCCORP</p>
-      </div>
-      <div class="back-to-top">
-        <button class="back-to-top-button">
-          <a href="#"><div class="right_arrow"></div></a>
-        </button>
+    <div class="feedback">
+      <h3>Ý KIẾN BÀI VIẾT</h3>
+      <div class="e-mail">
+        <a href="/">abc@gmail.com</a>
+        <a href="/">Câu hỏi thường gặp</a>
       </div>
     </div>
-  </body>
+    <div class="content-cooperation">
+      <h3>HỢP TÁC NỘI DUNG</h3>
+      <div class="e-mail">
+        <a href="/">xyz@gmail.com</a>
+        <a href="tel:+843579459xx">0357945xx9xx</a>
+      </div>
+    </div>
+    <div class="ad">
+      <h3>HỖ TRỢ QUẢNG CÁO</h3>
+      <div class="ad-e-mail">
+        <a href="/">123@gmail.com</a>
+        <div class="phonenumber-ad">
+          <a href="tel:+843579459xy">0357945xx9xx</a>
+          <p> - </p>
+          <a href="tel:+84xxxxxxxxy">035xxxxxxx</a>
+        </div>
+      </div>
+    </div>
+    <div class="adress">
+      <h3>TRỤ SỞ HÀ NỘI</h3>
+      <p>Tầng xx, xx, xx, xx Toà nhà Bottom Building - Hapulico Complex, Số x Nguyễn Huy Tưởng, Thanh Xuân, Hà Nội.</p>
+    </div>
+    <div class="license">
+      <p>Giấy phép thiết lập trang thông tin điện tử tổng hợp trên mạng số xxxx/GP-TTĐT do Sở Thông tin và Truyền thông Hà Nội cấp ngày 10 tháng 4 năm 2019</p>
+    </div>
+    <div class="copyright">
+      <p>© Copyright 2007 - 2022 - CÔNG TY CỔ PHẦN VCCORP</p>
+    </div>
+    <div class="back-to-top">
+      <button class="back-to-top-button">
+        <a href="#"><div class="right_arrow"></div></a>
+			</button>
+			</div>
+	</div>
+	<script src="{{ site.baseurl }}/assets/js/default.js"></script>
+	</body>
 </html>
