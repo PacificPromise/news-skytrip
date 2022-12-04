@@ -1,0 +1,135 @@
+@import "mixins";
+
+.footer {
+	padding: 15px;
+	margin-top: 10px;
+	background: #222;
+	border-top: 3px solid #ff6d19;
+
+	.responsible {
+		@include column-mowarp();
+		padding: 15px 0;
+		border-bottom: 1px solid #383838;
+		line-height: 16px;
+		color: #666;
+		font-family: Arial;
+
+		h3 {
+			@include h3footer(14px,bold);
+		}
+		p {
+			@include h3footer(14px,none);
+			margin: 0;
+		}
+	}
+	.feedback {
+		@extend .responsible;
+		h3 {
+			@include h3footer(14px,bold);
+		}
+	}
+	.content-cooperation {
+		@extend .responsible;
+		h3 {
+			@include h3footer(14px,bold);
+		}
+	}
+	.ad {
+		@extend .responsible;
+		h3 {
+			@include h3footer(14px,bold);
+		}
+	}
+	.adress {
+		@extend .responsible;
+		h3 {
+			@include h3footer(14px,bold);
+		}
+		p {
+			@include h3footer(14px,bold);
+		}
+	}
+	.license {
+		@extend .responsible;
+		p {
+			@include h3footer(14px,none);
+		}
+	}
+	.copyright {
+		@extend .responsible;;
+		p {
+		@include h3footer(14px,none);
+		}
+	}
+	.back-to-top {
+		@include row-nowrap();
+		justify-content: flex-end;
+		align-items: flex-end;
+
+		.back-to-top-button {
+			@include column-mowarp();
+			justify-content: center;
+			align-items: center;
+			float: right;
+			background: #3f3f3f;
+			width: 50px;
+			height: 50px;
+			a {
+				.right_arrow {
+					width: 10px;
+					height: 10px;
+					border: 2px solid wheat;
+					border-width: 0 2px 2px 0;
+					margin-bottom: 3%;
+
+					transform: rotate(-135deg);
+				}
+			}
+		}
+	}
+	@include tablet() {
+		display: none;
+	}
+}
+.e-mail {
+	@include row-nowrap();
+	justify-content: space-between;
+	a {
+	text-decoration: none;
+	font-family: Arial;
+	display: block;
+	font-size: 13px;
+	color: #777; 
+	}
+}
+.ad-e-mail {
+	@include column-mowarp();
+	a {
+		text-decoration: none;
+		font-family: Arial;
+		display: block;
+		font-size: 13px;
+		color: #777; 
+	}
+	.phonenumber-ad {
+		@include row-nowrap();
+		height: 15px;
+		line-height: 15px;
+		font-size: 13px;
+		color: #777;
+		text-decoration: none;
+		margin-top: 10px;
+		width: 50%;
+		justify-content: space-between;
+	}
+}
+.phone-number {
+	a {
+	display: block;
+	height: 15px;
+	line-height: 15px;
+	font-size: 13px;
+	color: #777;
+	text-decoration: none;
+	}
+}
