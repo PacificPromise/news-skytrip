@@ -1,17 +1,15 @@
 @import "mixins";
 
-body {
-	max-width: 1040px;
-	position: relative;
-	margin: 0 auto;
-	padding: 0;
-}
 .container {
 	@include column-mowarp();
 	position: relative;
 	margin: 0 auto;
 	padding: 15px;
+	max-width: 1040px;
+	margin: 0 auto;
+	padding: 0;
 }
+
 .trending {
 @include column-mowarp();
 @include desktop() {
@@ -36,14 +34,12 @@ body {
 		flex: 3;
 	}
 	.trending-1-img {
+		@include tablet {
+			height: 360px;
+		}
 		img {
+			height: 100%;
 			width: 100%;
-			@include tablet() {
-			height: 326.45px;
-			}
-			@include desktop() {
-			height: 326.45px;
-			}
 		}
 	}
 	.more-info {
@@ -94,8 +90,10 @@ body {
 		flex: 1;
 
 		.trending-2-img {
+			height: 360px;
 			img {
-				height: 326.45px;
+				height: 100%;
+				width: 100%
 			}
 		}
 	}
