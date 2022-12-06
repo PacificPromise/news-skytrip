@@ -1,8 +1,8 @@
 ---
 code: contact
 title: Liên hệ
-css: home
-layout: home
+css: contact
+layout: default
 ---
 
 This is the content of my page

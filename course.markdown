@@ -1,8 +1,8 @@
 ---
 code: course
 title: Khoá học
-css: home
-layout: home
+css: course
+layout: default
 ---
 
 This is the content of my page
