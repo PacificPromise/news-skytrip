@@ -36,6 +36,9 @@ body {
 		@include tablet {
 			height: 289px;
 		}
+		@include desktop {
+			height: 360px;
+		}
 		img {
 			height: 100%;
 			width: 100%;
@@ -96,6 +99,11 @@ body {
 			}
 		}
 	}
+	@include desktop {
+		.trending-2-img {
+			height: 360px;
+		}
+	}
 }
 
 
@@ -106,7 +114,6 @@ body {
 	background-image: linear-gradient(#ebebeb,#fff);
 }
 .news {
-	background-color: wheat;
 	.video {
 		width: 100%;
 	}
@@ -131,6 +138,9 @@ body {
 			@include row-nowrap();
 			a {
 				flex:1;
+				@include tablet {
+					flex:2
+				}
 				img {
 					width: 100%;
 
@@ -138,6 +148,9 @@ body {
 			}
 			.more-info-news {
 				flex:1;
+				@include tablet {
+					flex: 3;
+				}
 				.link-star {
 					margin: 0 0 2%;
 				}
