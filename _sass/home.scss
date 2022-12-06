@@ -1,17 +1,17 @@
 @import "mixins";
 
 body {
-	max-width: 1040px;
-	position: relative;
 	margin: 0 auto;
-	padding: 0;
+	position: relative;
 }
 .container {
 	@include column-mowarp();
 	position: relative;
 	margin: 0 auto;
 	padding: 15px;
+	max-width: 1040px;
 }
+
 .trending {
 @include column-mowarp();
 @include desktop() {
@@ -30,20 +30,18 @@ body {
 .trending-1 {
 	@include column-mowarp();
 	@include tablet() {
-		flex: 3;
-	}
-	@include desktop() {
-		flex: 3;
+		flex: 5;
 	}
 	.trending-1-img {
+		@include tablet {
+			height: 289px;
+		}
+		@include desktop {
+			height: 360px;
+		}
 		img {
+			height: 100%;
 			width: 100%;
-			@include tablet() {
-			height: 326.45px;
-			}
-			@include desktop() {
-			height: 326.45px;
-			}
 		}
 	}
 	.more-info {
@@ -91,18 +89,21 @@ body {
 	display: none;
 	@include tablet() {
 		@include column-mowarp();
-		flex: 1;
+		flex: 3;
 
 		.trending-2-img {
+			height: 289px;
 			img {
-				height: 326.45px;
+				height: 100%;
+				width: 100%
 			}
 		}
 	}
-	@include desktop() {
-		@include column-mowarp();
-		flex: 1;
-	} 
+	@include desktop {
+		.trending-2-img {
+			height: 360px;
+		}
+	}
 }
 
 
@@ -137,6 +138,9 @@ body {
 			@include row-nowrap();
 			a {
 				flex:1;
+				@include tablet {
+					flex:2
+				}
 				img {
 					width: 100%;
 
@@ -144,6 +148,9 @@ body {
 			}
 			.more-info-news {
 				flex:1;
+				@include tablet {
+					flex: 3;
+				}
 				.link-star {
 					margin: 0 0 2%;
 				}
