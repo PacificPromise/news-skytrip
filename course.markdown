@@ -1,5 +1,5 @@
 ---
-code: home
+code: course
 title: My First Page
 css: home
 layout: home

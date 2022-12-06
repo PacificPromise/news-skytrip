@@ -18,10 +18,26 @@
 			<a href="#" class="logo">
 				<img src="{{ site.baseurl }}/assets/images/logo.webp" alt="Logo">
 			</a>
-			<a href="#" class="active">Home</a>
-			<a href="#">About</a>
-			<a href="#">News</a>
-			<a href="#">Contact</a>
+			{% if page.code == 'home' %}
+			<a href="{{ site.baseurl }}/" class="active">Trang chủ</a>
+			{% else %}
+			<a href="{{ site.baseurl }}/">Trang chủ</a>
+			{% endif %}
+			{% if page.code == 'about' %}
+			<a href="{{ site.baseurl }}/about" class="active">Giới thiệu</a>
+			{% else %}
+			<a href="{{ site.baseurl }}/about">Giới thiệu</a>
+			{% endif %}
+			{% if page.code == 'contact' %}
+			<a href="{{ site.baseurl }}/contact" class="active">Liên hệ</a>
+			{% else %}
+			<a href="{{ site.baseurl }}/contact">Liên hệ</a>
+			{% endif %}
+			{% if page.code == 'course' %}
+			<a href="{{ site.baseurl }}/course" class="active">Khoá học</a>
+			{% else %}
+			<a href="{{ site.baseurl }}/course">Khoá học</a>
+			{% endif %}
 			<button class="icon" onclick="toggleNavigation()"><i class="fa fa-bars"></i></button>
 		</nav>
 	</header>
