@@ -1,6 +1,6 @@
 ---
 code: course
-title: My First Page
+title: Khoá học
 css: home
 layout: home
 ---

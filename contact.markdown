@@ -1,6 +1,6 @@
 ---
 code: contact
-title: My First Page
+title: Liên hệ
 css: home
 layout: home
 ---

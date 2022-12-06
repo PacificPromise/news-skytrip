@@ -1,69 +1,77 @@
 /* Variable */
-$mobile-width: 480px; 
-$tablet-width: 768px; 
-$desktop-width: 1024px; 
+$mobile-width: 480px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
 
 $primary-background: #731030;
 $primary-background-dark: #570b23;
 $primary-background-light: #bd194e;
 $white: #fff;
-$color-footer:#777;
+$color-footer: #777;
 
 /* Mixin */
-@mixin h3footer($size,$weight) {
-	font-weight: $weight;
-	font-size: $size;
-	color: #555;
-	margin-bottom: 12px;
-	font-family: Arial;
-	line-height: 16px;
+@mixin h3footer($size, $weight) {
+  font-weight: $weight;
+  font-size: $size;
+  color: #555;
+  margin-bottom: 12px;
+  font-family: Arial;
+  line-height: 16px;
 }
 
-@mixin title ($size,$color) {
-	font-size: $size;
-	color: $color;
-	font-family: Arial, Helvetica, sans-serif ;
-	text-decoration: none;
-	text-align: justify;
+@mixin title($size, $color) {
+  font-size: $size;
+  color: $color;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-align: justify;
 }
 @mixin row-nowrap {
-	display: flex;
-	flex-flow: row nowrap;
+  display: flex;
+  flex-flow: row nowrap;
 }
 @mixin column-mowarp {
-	display: flex;
-	flex-flow: column nowrap;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
-@mixin tablet { @media (min-width: #{$tablet-width}) {       
-	@content; 
-	} 
-} 
-@mixin desktop { @media (min-width: #{$desktop-width}) {     
-	@content; 
-	} 
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
 }
 
 @mixin mobile-only {
-	@media (max-width: #{$mobile-width - 1px}) {
-		@content;
-	}
+  @media (max-width: #{$mobile-width - 1px}) {
+    @content;
+  }
 }
 
 @mixin tablet-only {
-	@media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
-		@content;
-	}
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
 }
 
 @mixin desktop-only {
-	@media (min-width: #{$desktop-width}) {
-		@content;
-	}
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
 }
 
 @mixin mobile-and-tablet {
-	@media (max-width: #{$desktop-width - 1px}) {
-		@content;
-	}
+  @media (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
 }

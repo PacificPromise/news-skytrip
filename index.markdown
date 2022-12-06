@@ -1,6 +1,6 @@
 ---
 code: home
-title: My First Page
+title: Trang chủ
 css: home
 layout: home
 ---
