@@ -1,5 +1,7 @@
 ---
 layout: post
+code: post
+css: post
 title: 'Welcome to Jekyll!'
 date: 2022-11-30 16:15:02 +0700
 categories: jekyll update
