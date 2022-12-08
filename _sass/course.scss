@@ -1,4 +1,175 @@
 @import "mixins";
 
 .content {
+  .head {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    .row {
+      margin-left: -15px;
+      margin-right: -15px;
+      h3 {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 10px;
+        line-height: 1.1;
+        color: black;
+      }
+    }
+  }
+  .course-new {
+    margin-top: 15px;
+    margin-left: 0;
+    .container {
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+      .title {
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-bottom: 50px;
+        .col {
+          position: relative;
+          min-height: 1px;
+          padding-left: 15px;
+          padding-right: 15px;
+          h4 {
+            float: left;
+            font-size: 20px;
+            margin-bottom: 0;
+            margin-top: 10px;
+            line-height: 1.1;
+          }
+          a {
+            margin-top: 13px;
+            float: right;
+            cursor: pointer;
+            text-decoration: none;
+            color: black;
+          }
+        }
+      }
+      .detail {
+        margin-left: -15px;
+        margin-right: -15px;
+        .box {
+          position: relative;
+          min-height: 1px;
+          padding-left: 15px;
+          padding-right: 15px;
+          a {
+            border-bottom: 1px solid #ccc;
+            border-right: 0;
+            border-top: 0;
+            border-left: 0;
+            margin: 7px 0;
+            display: inline-block;
+            width: 100%;
+            padding-right: 0px;
+            min-height: 200px;
+            max-height: 290px;
+            border-radius: 5px;
+            box-shadow: 0 4px 12px rgba(75, 74, 74, 0.08);
+            span {
+              position: absolute;
+              float: left;
+              background-color: #f67052;
+              z-index: 1;
+              color: #ffffff;
+              text-align: center;
+              padding: 5px;
+              left: 7px;
+              top: 5px;
+              border-radius: 3px;
+              min-width: 42px;
+            }
+            img {
+              height: auto;
+              overflow: hidden;
+              min-width: 87px;
+              width: 100%;
+              float: left;
+              position: relative;
+              border-radius: 5px 5px 0px 0px;
+            }
+            .content-course {
+              width: 96%;
+              margin: 5px 7px 0 7px;
+              display: inline-block;
+              h3 {
+                margin: 5px 0;
+                display: inline-block;
+                min-height: 42px;
+                max-height: 42px;
+                overflow: hidden;
+                width: 100%;
+                line-height: 21px;
+                font-weight: 500;
+                font-size: 15px;
+                cursor: pointer;
+                color: black;
+              }
+              .name {
+                position: relative;
+                top: 0px;
+                font-size: 12px;
+                color: #555;
+                min-height: 18px;
+                b {
+                  float: left;
+                  font-weight: normal;
+                  min-height: 17px;
+                  overflow: hidden;
+                  display: block;
+                  max-height: 17px;
+                  max-width: 72%;
+                }
+                .price {
+                  text-decoration: line-through;
+                  float: right;
+                  color: #888;
+                  font-size: 13px !important;
+                }
+              }
+            }
+            .price-course {
+              clear: both;
+              border: 0;
+              padding-top: 0;
+              margin: 0 !important;
+              display: inline-block;
+              width: 100%;
+              padding-left: 5px;
+              border-radius: 5px;
+              .rate-combo {
+                line-height: 0;
+                overflow: hidden;
+                float: left;
+                p {
+                  float: left;
+                  margin-right: 5px;
+                  margin-left: 0;
+                  color: black;
+                  i {
+                    color: #eb8a2f;
+                  }
+                }
+              }
+              .price {
+                margin: 0 10px;
+                font-weight: 600;
+                float: right;
+                color: #333;
+                font-size: 17px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
