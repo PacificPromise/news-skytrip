@@ -3,8 +3,11 @@
 .content {
     max-width: 1040px;
     margin: 0 auto;
-    border-bottom: 2px solid #F77C15;
     padding: 20px;
+
+    @include tablet {
+        border-bottom: 2px solid #F77C15;
+    }
     
     a {
         color: black;

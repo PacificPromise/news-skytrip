@@ -1,4 +1,25 @@
 @import "mixins";
 
 .content {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 20px;
+
+    @include tablet {
+        border-bottom: 2px solid #F77C15;
+    }
+
+    h1 {
+        border-bottom: 1px solid #d9d9d9;
+        padding-bottom: 20px;
+    }
+    p, h2, h3 { text-align: justify;
+        img {
+            width: 100%;
+        }
+    }
+    h4 {
+
+        text-align: right;
+    }
 }
