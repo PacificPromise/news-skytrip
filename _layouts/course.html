@@ -3,6 +3,76 @@ layout: default
 css: course
 ---
 
+<div class="banner">
+  <div class="carousel-slide">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img
+          src="{{ site.baseurl }}/assets/images/1.jpeg"
+          style="width: 100%"
+        />
+        <!-- <div class="text">Caption Text</div> -->
+      </div>
+
+      <div class="mySlides fade">
+        <img src="{{ site.baseurl }}/assets/images/2.png" style="width: 100%" />
+        <!-- <div class="text">Caption Two</div> -->
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="{{ site.baseurl }}/assets/images/3.jpeg"
+          style="width: 100%"
+        />
+        <!-- <div class="text">Caption Three</div> -->
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script>
+      let slideIndex = 1
+      showSlides(slideIndex)
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n))
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n))
+      }
+
+      function showSlides(n) {
+        let i
+        let slides = document.getElementsByClassName("mySlides")
+        let dots = document.getElementsByClassName("dot")
+        if (n > slides.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none"
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "")
+        }
+        slides[slideIndex - 1].style.display = "block"
+        dots[slideIndex - 1].className += " active"
+      }
+    </script>
+  </div>
+</div>
+
 <div class="head">
   <div class="row">
     <h3>Bạn muốn học gì hôm nay?</h3>
@@ -17,6 +87,7 @@ css: course
         <a href="#">Xem thêm</a>
       </div>
     </div>
+    <div class="cover">
     <div class="detail">
       <div class="box">
         <a href="#">
@@ -68,6 +139,30 @@ css: course
     <div class="detail">
       <div class="box">
         <a href="#">
+          <span>-58%</span>
+          <img
+            src="{{ site.baseurl }}/assets/images/tu-do-tai-chinh-cung-chung-khoan.jpg"
+            alt=""
+          />
+          <div class="content-course">
+            <h3>Tự do tài chính cùng chứng khoán</h3>
+            <div class="name">
+              <b>Đặng Trọng Khang</b>
+              <div class="price">600.000<sup>đ</sup></div>
+            </div>
+          </div>
+          <div class="price-course">
+            <div class="rate-combo">
+              <p><i>★★★★★ </i>(648)</p>
+            </div>
+            <div class="price">250.000<sup>đ</sup></div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="detail">
+      <div class="box">
+        <a href="#">
           <span>-63%</span>
           <img
             src="{{ site.baseurl }}/assets/images/hoc-photoshop.jpg"
@@ -90,6 +185,7 @@ css: course
       </div>
     </div>
   </div>
+  </div>
 </div>
 
 <div class="course-new">
@@ -100,6 +196,7 @@ css: course
         <a href="#">Xem thêm</a>
       </div>
     </div>
+    <div class="cover">
     <div class="detail">
       <div class="box">
         <a href="#">
@@ -171,85 +268,33 @@ css: course
         </a>
       </div>
     </div>
-  </div>
-</div>
-
-<div class="course-slide">
-  <div class="container">
-    <div class="row">
-      <div class="box-slider">
-        <div class="title">
-          <h4>Mới ra mắt</h4>
-          <a href="#">Xem thêm</a>
-        </div>
-        <div class="detail">
-
-          <div class="slideshow-container">
-
-            <div class="mySlides fade">
-              <div class="numbertext">1 / 3</div>
-              <img src="{{ site.baseurl }}/assets/images/1.jpeg" style="width:100%">
-              <!-- <div class="text">Caption Text</div> -->
+    <div class="detail">
+      <div class="box">
+        <a href="#">
+          <span>-79%</span>
+          <img
+            src="{{ site.baseurl }}/assets/images/thu-nhap-thu-dong.jpg"
+            alt=""
+          />
+          <div class="content-course">
+            <h3>
+              Thu nhập thụ động từ việc Đóng gói kiến thức & tạo khoá học Online
+            </h3>
+            <div class="name">
+              <b>Nguyễn Chương</b>
+              <div class="price">900.000<sup>đ</sup></div>
             </div>
-            
-            <div class="mySlides fade">
-              <div class="numbertext">2 / 3</div>
-              <img src="{{ site.baseurl }}/assets/images/2.png" style="width:100%">
-              <!-- <div class="text">Caption Two</div> -->
-            </div>
-            
-            <div class="mySlides fade">
-              <div class="numbertext">3 / 3</div>
-              <img src="{{ site.baseurl }}/assets/images/3.jpeg" style="width:100%">
-              <!-- <div class="text">Caption Three</div> -->
-            </div>
-            
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
-            
-            </div>
-            <br>
-            
-            <div style="text-align:center">
-              <span class="dot" onclick="currentSlide(1)"></span> 
-              <span class="dot" onclick="currentSlide(2)"></span> 
-              <span class="dot" onclick="currentSlide(3)"></span> 
-            </div>
-            
-            <script>
-            let slideIndex = 1;
-            showSlides(slideIndex);
-            
-            function plusSlides(n) {
-              showSlides(slideIndex += n);
-            }
-            
-            function currentSlide(n) {
-              showSlides(slideIndex = n);
-            }
-            
-            function showSlides(n) {
-              let i;
-              let slides = document.getElementsByClassName("mySlides");
-              let dots = document.getElementsByClassName("dot");
-              if (n > slides.length) {slideIndex = 1}    
-              if (n < 1) {slideIndex = slides.length}
-              for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";  
-              }
-              for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex-1].style.display = "block";  
-              dots[slideIndex-1].className += " active";
-            }
-            </script>
-
-          <div class="slick-list">
-            <div class="slick-track"></div>
           </div>
-        </div>
+          <div class="price-course">
+            <div class="rate-combo">
+              <p><i>★★★★★ </i>(16)</p>
+            </div>
+            <div class="price">190.000<sup>đ</sup></div>
+          </div>
+        </a>
       </div>
     </div>
   </div>
+  </div>
 </div>
+
