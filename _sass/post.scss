@@ -13,13 +13,19 @@
         border-bottom: 1px solid #d9d9d9;
         padding-bottom: 20px;
     }
-    p, h2, h3 { text-align: justify;
+    p, h2, h3, h4 { text-align: justify;
         img {
             width: 100%;
         }
     }
-    h4 {
+    h5 {
 
         text-align: right;
+    }
+    iframe {
+        width: 100%;
+    }
+    ul {
+        text-align: justify;
     }
 }
