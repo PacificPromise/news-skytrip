@@ -83,13 +83,14 @@
           display: flex;
         }
         .detail {
+          @include desktop() {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+          }
           margin-left: -15px;
           margin-right: -15px;
           .box {
-            @include desktop() {
-              // float: left;
-              // width: 25%;
-            }
             position: relative;
             min-height: 1px;
             padding-left: 15px;
@@ -104,8 +105,8 @@
                 background: #fff;
                 border-radius: 5px;
                 margin-bottom: 20px;
-                box-shadow: 0 2px 4px rgba(24, 24, 24, 0.08),
-                  0 4px 12px rgba(14, 14, 14, 0.08);
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08),
+                  0 4px 12px rgba(0, 0, 0, 0.08);
               }
               @include desktop() {
                 min-height: auto;
@@ -121,7 +122,7 @@
               min-height: 200px;
               max-height: 290px;
               border-radius: 5px;
-              box-shadow: 0 4px 12px rgba(75, 74, 74, 0.08);
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
               span {
                 @include desktop() {
                   position: absolute;
@@ -289,15 +290,15 @@
   }
 
   /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
+  // .text {
+  //   color: #f2f2f2;
+  //   font-size: 15px;
+  //   padding: 8px 12px;
+  //   position: absolute;
+  //   bottom: 8px;
+  //   width: 100%;
+  //   text-align: center;
+  // }
 
   /* Number text (1/3 etc) */
   .numbertext {
