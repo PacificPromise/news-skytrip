@@ -2,7 +2,7 @@
 code: course
 title: Khoá học
 css: course
-layout: default
+layout: course
 ---
 
 This is the content of my page
