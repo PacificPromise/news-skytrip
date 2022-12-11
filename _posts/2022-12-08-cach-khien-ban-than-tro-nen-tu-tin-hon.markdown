@@ -47,4 +47,4 @@ Khi bạn có suy nghĩ tiêu cực, bạn sẽ cảm thấy mọi thứ luôn k
 
 Hơn thế, một nụ cười khiến bạn trở nên tự tin và xinh đẹp hơn. Bạn biết đấy, chẳng ai thích ở cạnh một người suốt ngày nhăn nhó và luôn có cảm xúc tiêu cực. Điều đó gây ảnh hưởng xấu đến cả một tập thể. Một người tiêu cực luôn cảm thấy thế giới đáng sợ, mọi thứ xung quanh thật khó khăn. Ngược lại, một người tích cực luôn thấy thế giới xinh đẹp và họ luôn được yêu quý ở mọi lúc mọi nơi.
 
-#### *Theo Thegoodtrade*
+##### *Theo Thegoodtrade*
