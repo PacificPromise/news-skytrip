@@ -160,4 +160,41 @@
       }
     }
   }
+  .dont-miss::-webkit-scrollbar {
+    display: none;
+    
+  }
+  .dont-miss {
+    @include desktop {
+      display: none;
+    }    
+    display: inline-block;
+    overflow-x: scroll;
+    
+    
+
+    .dont-miss-list {
+      display: -webkit-inline-box;
+      list-style: none;
+      padding: 0;
+      
+      li {
+        width: 60%;
+        margin: 0 7% 0 0;
+        @include column-mowarp;
+
+        .dont-miss-img {
+
+          img {
+            width: 100%;
+          }
+        }
+        .dont-miss-text {
+          text-decoration: none;
+          color: black;
+        }
+      }
+
+    }
+  }
 }
