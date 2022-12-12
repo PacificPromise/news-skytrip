@@ -15,7 +15,10 @@ css: course
       </div>
 
       <div class="mySlides fade">
-        <img src="{{ site.baseurl }}/assets/images/2.webp" style="width: 100%" />
+        <img
+          src="{{ site.baseurl }}/assets/images/2.webp"
+          style="width: 100%"
+        />
         <!-- <div class="text">Caption Two</div> -->
       </div>
 
@@ -37,39 +40,6 @@ css: course
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>
     </div>
-
-    <script>
-      let slideIndex = 1
-      showSlides(slideIndex)
-
-      function plusSlides(n) {
-        showSlides((slideIndex += n))
-      }
-
-      function currentSlide(n) {
-        showSlides((slideIndex = n))
-      }
-
-      function showSlides(n) {
-        let i
-        let slides = document.getElementsByClassName("mySlides")
-        let dots = document.getElementsByClassName("dot")
-        if (n > slides.length) {
-          slideIndex = 1
-        }
-        if (n < 1) {
-          slideIndex = slides.length
-        }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none"
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "")
-        }
-        slides[slideIndex - 1].style.display = "block"
-        dots[slideIndex - 1].className += " active"
-      }
-    </script>
   </div>
 </div>
 
@@ -84,7 +54,7 @@ css: course
     <div class="title">
       <div class="col">
         <h4>TOP BÁN CHẠY</h4>
-        <a href="#">Xem thêm</a>
+        <a href="#">Xem thêm <i class="fa fa-angle-double-right"></i></a>
       </div>
     </div>
     <div class="cover">
@@ -193,7 +163,7 @@ css: course
     <div class="title">
       <div class="col">
         <h4>SIÊU ƯU ĐÃI HÔM NAY</h4>
-        <a href="#">Xem thêm</a>
+        <a href="#">Xem thêm <i class="fa fa-angle-double-right"></i></a>
       </div>
     </div>
     <div class="cover">
@@ -252,7 +222,10 @@ css: course
         <div class="box">
           <a href="#">
             <span>-79%</span>
-            <img src="{{ site.baseurl }}/assets/images/kinh-doanh.webp" alt="" />
+            <img
+              src="{{ site.baseurl }}/assets/images/kinh-doanh.webp"
+              alt=""
+            />
             <div class="content-course">
               <h3>Kinh doanh từ A đến Z</h3>
               <div class="name">
@@ -299,3 +272,5 @@ css: course
     </div>
   </div>
 </div>
+
+<script src="{{ site.baseurl }}/assets/js/slider.coffee"></script>
