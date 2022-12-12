@@ -99,7 +99,7 @@
     font-family: Arial;
     display: block;
     font-size: 13px;
-    color: $color-footer;
+    color: $color-footer-sm;
   }
 }
 .ad-e-mail {
@@ -109,14 +109,14 @@
     font-family: Arial;
     display: block;
     font-size: 13px;
-    color: $color-footer;
+    color: $color-footer-sm;
   }
   .phonenumber-ad {
     @include row-nowrap();
     height: 15px;
     line-height: 15px;
     font-size: 13px;
-    color: $color-footer;
+    color: $color-footer-sm;
     text-decoration: none;
     margin-top: 10px;
     width: 50%;
@@ -267,7 +267,7 @@
         }
       }
       .facebook {
-        background-image: url(https://scontent.xx.fbcdn.net/v/t39.30808-6/317776801_6354313214591485_7815309333203676301_n.jpg?stp=dst-jpg_s526x296&_nc_cat=1&ccb=1-7&_nc_sid=dd9801&_nc_ohc=uOUSK7JnCAEAX-Db5s-&_nc_ht=scontent.xx&edm=AOUVRTIEAAAA&oh=00_AfD8eX-7r93YsTk155gW4zZLuc9BJT-ZvbUPnY22meVzjw&oe=63944262);
+        background-image: url(https://kenh14cdn.com/web_images/k14_world_cup_2022.gif);
         border: 1px solid #e7e7e7;
         width: 100%;
         @include column-mowarp;

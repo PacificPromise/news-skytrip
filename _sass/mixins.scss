@@ -7,13 +7,14 @@ $primary-background: #731030;
 $primary-background-dark: #570b23;
 $primary-background-light: #bd194e;
 $white: #fff;
-$color-footer: #424242;
+$color-footer: #707070;
+$color-footer-sm: #aaaaaa;
 
 /* Mixin */
 @mixin h3footer($size, $weight) {
   font-weight: $weight;
   font-size: $size;
-  color: #555;
+  color: rgb(167, 167, 167);
   margin-bottom: 12px;
   font-family: Arial;
   line-height: 16px;
