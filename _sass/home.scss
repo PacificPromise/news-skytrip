@@ -63,7 +63,7 @@
     text-decoration: none;
     font-size: 14px;
     line-height: 16px;
-    color: #ff6d19;
+    color: #B35F00;
     font-weight: bold;
     margin-right: 5px;
   }
@@ -158,6 +158,52 @@
           }
         }
       }
+    }
+  }
+
+  .dont-miss {
+    @include tablet{
+      display: none;
+    }    
+    display: inline-block;
+    .dont-miss-list::-webkit-scrollbar {
+      display: none;
+    }
+     h3 {
+      border-left: 3px solid #ff6d19;
+      height: 24px;
+      margin-bottom: 16px;
+      line-height: 24px;
+      font-size: 20px;
+      color: #333;
+      text-transform: uppercase;
+      padding-left: 13px;
+     }
+
+    .dont-miss-list {
+      display: -webkit-inline-box;
+      list-style: none;
+      padding: 0;
+      overflow-x: scroll;
+      width: 100%;
+      
+      li {
+        width: 60%;
+        margin: 0 7% 0 0;
+        @include column-mowarp;
+
+        .dont-miss-img {
+
+          img {
+            width: 100%;
+          }
+        }
+        .dont-miss-text {
+          text-decoration: none;
+          color: black;
+        }
+      }
+
     }
   }
 }
