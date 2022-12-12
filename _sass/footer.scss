@@ -15,50 +15,51 @@
     font-family: Arial;
 
     h3 {
-      @include h3footer(14px, bold);
+      @include h3footer-mb(14px, bold);
     }
     p {
-      @include h3footer(14px, none);
+      @include h3footer-mb(14px, none);
+      color: $color-footer;
       margin: 0;
     }
   }
   .feedback {
     @extend .responsible;
     h3 {
-      @include h3footer(14px, bold);
+      @include h3footer-mb(14px, bold);
     }
   }
   .content-cooperation {
     @extend .responsible;
     h3 {
-      @include h3footer(14px, bold);
+      @include h3footer-mb(14px, bold);
     }
   }
   .ad {
     @extend .responsible;
     h3 {
-      @include h3footer(14px, bold);
+      @include h3footer-mb(14px, bold);
     }
   }
   .adress {
     @extend .responsible;
     h3 {
-      @include h3footer(14px, bold);
+      @include h3footer-mb(14px, bold);
     }
     p {
-      @include h3footer(14px, bold);
+      @include h3footer-mb(14px, bold);
     }
   }
   .license {
     @extend .responsible;
     p {
-      @include h3footer(14px, none);
+      @include h3footer-mb(14px, none);
     }
   }
   .copyright {
     @extend .responsible;
     p {
-      @include h3footer(14px, none);
+      @include h3footer-mb(14px, none);
     }
   }
   .back-to-top {
@@ -100,6 +101,7 @@
     display: block;
     font-size: 13px;
     color: $color-footer;
+    line-height: 48px;
   }
 }
 .ad-e-mail {
@@ -110,24 +112,23 @@
     display: block;
     font-size: 13px;
     color: $color-footer;
+    line-height: 48px;
   }
   .phonenumber-ad {
     @include row-nowrap();
-    height: 15px;
-    line-height: 15px;
     font-size: 13px;
     color: $color-footer;
     text-decoration: none;
     margin-top: 10px;
     width: 50%;
     justify-content: space-between;
+    align-items: center;
   }
 }
 .phone-number {
   a {
     display: block;
-    height: 15px;
-    line-height: 15px;
+    line-height: 48px;
     font-size: 13px;
     color: $color-footer;
     text-decoration: none;
