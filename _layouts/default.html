@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="General information page">
     <title>{{ page.title }}</title>
     <link
       rel="stylesheet"
@@ -40,7 +41,7 @@
         {% else %}
         <a href="{{ site.baseurl }}/course">Khoá học</a>
         {% endif %}
-        <button class="icon" onclick="toggleNavigation()">
+        <button class="icon" onclick="toggleNavigation()" aria-label="navbar">
           <i class="fa fa-bars"></i>
         </button>
       </nav>
@@ -163,7 +164,7 @@
       <div class="clearfix">
         <div class="contribute-content">
           <a href="#"
-            ><img src="{{ site.baseurl }}/assets/images/logo.webp"
+            ><img src="{{ site.baseurl }}/assets/images/logo.webp" alt="logo"
           /></a>
           <div class="user-response-clearfix">
             <span class="group-title"> ĐÓNG GÓP NỘI DUNG </span>
@@ -185,7 +186,7 @@
               target="_blank"
               class="facebook-page-logo"
               href="https://www.facebook.com/"
-              ><img src="{{ site.baseurl }}/assets/images/logo.webp"
+              ><img src="{{ site.baseurl }}/assets/images/logo.webp" alt="logo"
             /></a>
             <div class="facebook-page-info">
               <a target="_blank" href="https://www.facebook.com/"
@@ -263,7 +264,7 @@
               >
                 CHAT VỚI TƯ VẤN VIÊN
               </a>
-              <a class="detail-ad"> XEM CHI TIẾT </a>
+              <a href="/" class="detail-ad"> XEM CHI TIẾT </a>
             </div>
           </div>
           <div class="associate">
@@ -274,7 +275,7 @@
         </div>
         <!-- end footer-bottom-mid -->
         <div class="footer-bottom-right">
-          <a class="logo-corp" target="_blank" href="/"></a>
+          <div class="logo-corp" target="_blank"></div>
           <p class="col-title">
             <span>© Copyright 2007 - 2022 – </span>Công ty Cổ phần VCCorp
           </p>

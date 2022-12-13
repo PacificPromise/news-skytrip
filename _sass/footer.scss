@@ -117,7 +117,7 @@
   .phonenumber-ad {
     @include row-nowrap();
     font-size: 13px;
-    color: $color-footer;
+    color: $color-footer-sm;
     text-decoration: none;
     margin-top: 10px;
     width: 50%;
@@ -161,7 +161,7 @@
           a {
             font-size: 13px;
             font-weight: bold;
-            color: #a1a1a1;
+            color: #424242;
             text-decoration: none;
           }
         }
@@ -172,7 +172,7 @@
           }
           ::before {
             content: "|";
-            color: #a1a1a1;
+            color: #424242;
             font-size: 13px;
             margin: 0 2px;
           }
@@ -180,7 +180,7 @@
           a {
             font-size: 13px;
             font-weight: bold;
-            color: #a1a1a1;
+            color: #424242;
             text-decoration: none;
           }
         }
@@ -268,7 +268,7 @@
         }
       }
       .facebook {
-        background-image: url(https://scontent.xx.fbcdn.net/v/t39.30808-6/317776801_6354313214591485_7815309333203676301_n.jpg?stp=dst-jpg_s526x296&_nc_cat=1&ccb=1-7&_nc_sid=dd9801&_nc_ohc=uOUSK7JnCAEAX-Db5s-&_nc_ht=scontent.xx&edm=AOUVRTIEAAAA&oh=00_AfD8eX-7r93YsTk155gW4zZLuc9BJT-ZvbUPnY22meVzjw&oe=63944262);
+        background-image: url(https://kenh14cdn.com/web_images/k14_world_cup_2022.gif);
         border: 1px solid #e7e7e7;
         width: 100%;
         @include column-mowarp;
@@ -406,7 +406,7 @@
               margin-top: 15px;
               height: 24px;
               padding: 0 15px;
-              background: #0084ff;
+              background: #0026ff;
               font-size: 12px;
               font-weight: bold;
               color: #fff;
@@ -420,10 +420,10 @@
               margin-top: 15px;
               height: 24px;
               padding: 0 15px;
-              background: #fa5d37;
+              background: #731030;
               font-size: 12px;
               font-weight: bold;
-              color: #fff;
+              color: rgb(255, 255, 255);
               text-decoration: none;
               line-height: 24px;
               border-radius: 2px;
