@@ -26,7 +26,6 @@ $color-footer-md: #6D6146;
   font-size: $size;
   color: rgb(167, 167, 167);
   margin-bottom: 12px;
-  font-family: Arial;
   line-height: 16px;
 }
 
@@ -35,14 +34,12 @@ $color-footer-md: #6D6146;
   font-size: $size;
   color: #CBC4AE;
   margin-bottom: 12px;
-  font-family: Arial;
   line-height: 16px;
 }
 
 @mixin title($size, $color) {
   font-size: $size;
   color: $color;
-  font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   text-align: justify;
 }
@@ -94,4 +91,5 @@ body {
   margin: 0px;
   padding: 0px;
   position: relative;
+  font-family: "Roboto", sans-serif;
 }
