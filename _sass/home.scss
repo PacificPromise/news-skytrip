@@ -37,6 +37,7 @@
 
       img {
         height: 100%;
+        width: 100%;
       }
     }
     .more-info {
@@ -163,6 +164,12 @@
 
           p {
             margin: 4% 0 0 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 5;
+            height: 82px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
             @include title(14px, #666);
             @include tablet {
               font-size: 18px;

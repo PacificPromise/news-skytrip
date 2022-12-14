@@ -64,18 +64,17 @@ css: course
       </div>
     </div>
     <div class="cover">
+      {% for post in site.posts %}
       <div class="detail">
         <div class="box">
-          <a href="#">
+          <a href="{{ site.baseurl }}{{ post.url }}">
             <span>-58%</span>
             <img
-              width="100%"
-              height="100%"
-              src="{{ site.baseurl }}/assets/images/thiet-ke-trinh-chieu-powerpoint-2016.webp"
-              alt="sửa sau khi map detail"
+              src="{{ post.image }}"
+              alt="{{ post.title }}"
             />
             <div class="content-course">
-              <h3>Thiết kế trình chiếu PowerPoint 2016 từ A-Z</h3>
+              <h3>{{ post.title }}</h3>
               <div class="name">
                 <b>Đặng Trọng Khang</b>
                 <div class="price">600.000<sup>đ</sup></div>
@@ -90,7 +89,9 @@ css: course
           </a>
         </div>
       </div>
-      <div class="detail">
+      {% endfor %}
+
+      <!-- <div class="detail">
         <div class="box">
           <a href="#">
             <span>-34%</span>
@@ -167,7 +168,8 @@ css: course
             </div>
           </a>
         </div>
-      </div>
+      </div> -->
+
     </div>
   </div>
 </div>
