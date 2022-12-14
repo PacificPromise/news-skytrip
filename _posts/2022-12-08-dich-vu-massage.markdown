@@ -4,9 +4,9 @@ code: post
 css: post
 title: Dịch vụ massage, chữa đau cổ, vai, gáy đông khách văn phòng cuối năm.
 description: 21h thứ sáu, Phương Anh (25 tuổi, quận 3, TP.HCM) vẫn ngồi ở phòng chờ tại một spa quen thuộc gần nhà để điều trị cơn đau cổ, vai, gáy. Cô đã đặt lịch từ trước, nhưng do không thể sắp xếp công việc để đến đúng giờ, Phương Anh buộc phải đợi đến khi khách hàng khác thực hiện xong liệu trình của họ.
-image: https://znews-photo.zingcdn.me/w960/Uploaded/bzqvpdlu/2022_12_04/pexels_andrea_piacquadio_3764568.jpg
+image: /assets/images/dich-vu-massage.webp
 date: 2022-12-08 16:15:02 +0700
-categories: jekyll update
+categories: news
 ---
 
 # **Dịch vụ massage, chữa đau cổ, vai, gáy đông khách văn phòng cuối năm**
