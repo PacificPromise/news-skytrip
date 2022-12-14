@@ -2,11 +2,12 @@
 layout: post
 code: post
 css: post
-title: 5 điểm đặc trưng của người có EQ thấp điển hình.
+title: 4 đặc điểm của phụ nữ thông minh và dễ khiến đàn ông say đắm.
+description: Nhiều người nói rằng, chỉ cần phụ nữ hấp dẫn thì sẽ khiến đàn ông bị thu hút. Tuy nhiên trên thực tế, đôi khi sự thú vị trong tâm hồn và cách suy nghĩ, cư xử còn có tác dụng lớn hơn rất nhiều.
+image: https://kenh14cdn.com/203336854389633024/2022/12/6/photo-2-16703395433551614531847.jpg
 date: 2022-12-08 16:15:02 +0700
 categories: jekyll update
 ---
-
 
 # **4 đặc điểm của phụ nữ thông minh và dễ khiến đàn ông say đắm**
 
@@ -27,7 +28,6 @@ Một điều khiến phụ nữ càng trở nên thu hút hơn chính là việ
 Có một số phụ nữ sống hướng nội, e dè, muốn nhưng chẳng dám làm thậm chí không dám nói ra. Điều ấy khiến cho bản thân họ giảm đi ít nhiều sự thu hút. Bởi vậy, trước khi bạn cố lấy lòng ai đó, hãy lấy lòng chính mình. Bản thân bạn thoải mái thì năng lượng lan tỏa ra cũng vô cùng cuốn hút đấy.
 
 ![](https://kenh14cdn.com/203336854389633024/2022/12/6/photo-2-16703395433551614531847.jpg)
-
 
 ### **2. Biết cách nói về chủ đề mà đàn ông quan tâm**
 
@@ -50,7 +50,7 @@ Có một số phụ nữ sống hướng nội, e dè, muốn nhưng chẳng d�
 
 2. Biết cách nói về chủ đề mà đàn ông quan tâm
 
-Cựu Tổng thống Roosevelt của Mỹ từng nói: *"Khi bạn nói về những điều mà đối phương quan tâm, cuộc giao tiếp của bạn sẽ thành công"*.
+Cựu Tổng thống Roosevelt của Mỹ từng nói: _"Khi bạn nói về những điều mà đối phương quan tâm, cuộc giao tiếp của bạn sẽ thành công"_.
 
 Giao tiếp là bước đầu của một mối quan hệ. Nó là cầu nối giữa con người với nhau. Nếu không có giao tiếp thì bạn sẽ chẳng cộng hưởng được với ai cả.
 
@@ -60,8 +60,6 @@ Sở thích của đàn ông và phụ nữ ít khi giống nhau. Đàn ông lu�
 
 Không còn trở ngại trong giao tiếp cũng là cách để cả hai trở nên dễ dàng thân thiết hơn trước khi tiến đến những bước tiếp theo.
 
-
-
 ### **3. Người phụ nữ biết cách công nhận đàn ông**
 
 Mỗi người đàn ông đều có sĩ diện và lòng tự trọng cao. Họ nhạy cảm và luôn khao khát được công nhận, đặc biệt là từ người khác giới.
@@ -70,9 +68,7 @@ Phụ nữ biết cách công nhận khả năng của đàn ông cả trong s�
 
 Một người đàn ông thường sẽ bị thích thú với kiểu phụ nữ có cái nhìn hào phóng về người khác và có thể đưa ra được đánh giá sâu sắc.
 
-
 ![](https://kenh14cdn.com/203336854389633024/2022/12/6/photo-1-1670339525950852148446.png)
-
 
 ### **4. Phụ nữ biết cách chăm sóc đàn ông**
 
@@ -81,4 +77,3 @@ Một người đàn ông thường sẽ bị thích thú với kiểu phụ n�
 Phụ nữ thông minh hiểu điều này, nếu đã chú ý đến ai đó, họ sẽ biết cách quan tâm, chăm sóc và hỏi han anh ấy. Nếu như trong lúc đối phương chán nản, thất vọng mà có sự quan tâm của bạn thì chắc hẳn anh ấy sẽ rung động. Kể cả khi hai bạn đã ở bên nhau, sự chăm sóc đến từ bạn cũng khiến đàn ông nhận ra mình được yêu thương, vỗ về.
 
 Đàn ông hầu như lúc nào cũng phải mạnh mẽ vì gánh nhiều trách nhiệm trên vai. Tuy nhiên những phút giây yếu mềm của họ mà có người thấu hiểu và ở bên cạnh chăm sóc thì còn mang đến hiệu quả lớn hơn nữa.
-

@@ -3,10 +3,11 @@ layout: post
 code: post
 css: post
 title: 5 điểm đặc trưng của người có EQ thấp điển hình.
+description: Đã qua 10 giờ đêm nhưng một cộng đồng nào đó trên mạng vẫn đang hoạt động rất tích cực. Chủ đề thảo luận chung của nhóm này là các thiết kế trong phần mềm PowerPoint (PPT). Các thành viên có thể đăng tác phẩm vừa làm xong lên nhóm nhờ mọi người cho lời khuyên. Các chủ bài đăng đều mong nhận được những lời lời khen và góp ý từ các thành viên khác trong nhóm, đặc biệt là từ quản trị viên (là một chuyên gia trong lĩnh vực này).
+image: https://kenh14cdn.com/203336854389633024/2022/12/8/photo-3-1670476590542511372834.jpg
 date: 2022-12-08 16:15:02 +0700
 categories: jekyll update
 ---
-
 
 # **5 điểm đặc trưng của người có EQ thấp điển hình**
 
@@ -22,7 +23,7 @@ Lúc này, một thành viên có tên là "Người có tâm" đã gửi một 
 
 Thấy vậy, trong nhóm có người đáp lại rằng bây giờ đã quá muộn và quản trị viên của nhóm đã đi nghỉ ngơi rồi. Sáng hôm sau, một ngày làm việc mới lại bắt đầu, "Người có tâm" một lần nữa nhắc tên quản trị nhóm, mong anh vui lòng cho ý kiến về bài PPT của mình. Quản trị viên của nhóm cũng nhiệt tình và đưa ra rất nhiều nhận xét cho thành viên này. Nhưng "Người có tâm" tiếp tục đặt hàng loạt các câu hỏi, từ kích thước, màu sắc đến các vấn đề nhỏ khác. Lúc này, quản trị nhóm có chút mất kiên nhẫn, nhưng vẫn chỉ cho người này phương hướng tra cứu trên mạng để giải quyết những việc này.
 
-Sau đó, "Người có tâm" gửi đến một đoạn bình luận dài với đại ý: *"Anh có trách nhiệm nhận xét bài cho tôi, tại sao lại yêu cầu tôi tự tra trên mạng? Tôi hiểu rằng anh cảm thấy chán khi phải kiểm tra và góp ý cho rất nhiều PPT, nhưng anh có biết tôi làm PPT khó khăn như thế nào không? Tôi phải thức đến hai giờ sáng. Chỉ vài lời của anh có thể giúp tôi giải quyết vấn đề, tại sao lại khiến tôi phải lãng phí đến vài giờ?"*.
+Sau đó, "Người có tâm" gửi đến một đoạn bình luận dài với đại ý: _"Anh có trách nhiệm nhận xét bài cho tôi, tại sao lại yêu cầu tôi tự tra trên mạng? Tôi hiểu rằng anh cảm thấy chán khi phải kiểm tra và góp ý cho rất nhiều PPT, nhưng anh có biết tôi làm PPT khó khăn như thế nào không? Tôi phải thức đến hai giờ sáng. Chỉ vài lời của anh có thể giúp tôi giải quyết vấn đề, tại sao lại khiến tôi phải lãng phí đến vài giờ?"_.
 
 Đã qua 10 giờ đêm nhưng một cộng đồng nào đó trên mạng vẫn đang hoạt động rất tích cực. Chủ đề thảo luận chung của nhóm này là các thiết kế trong phần mềm PowerPoint (PPT). Các thành viên có thể đăng tác phẩm vừa làm xong lên nhóm nhờ mọi người cho lời khuyên. Các chủ bài đăng đều mong nhận được những lời lời khen và góp ý từ các thành viên khác trong nhóm, đặc biệt là từ quản trị viên (là một chuyên gia trong lĩnh vực này).
 
@@ -37,7 +38,7 @@ Thấy vậy, trong nhóm có người đáp lại rằng bây giờ đã quá m
 
 Sau đó, "Người có tâm" gửi đến một đoạn bình luận dài với đại ý: "Anh có trách nhiệm nhận xét bài cho tôi, tại sao lại yêu cầu tôi tự tra trên mạng? Tôi hiểu rằng anh cảm thấy chán khi phải kiểm tra và góp ý cho rất nhiều PPT, nhưng anh có biết tôi làm PPT khó khăn như thế nào không? Tôi phải thức đến hai giờ sáng. Chỉ vài lời của anh có thể giúp tôi giải quyết vấn đề, tại sao lại khiến tôi phải lãng phí đến vài giờ?".
 
-Theo những thành viên khác trong nhóm, quản trị viên chỉ tranh thủ lúc rảnh để góp ý PPT cho mọi người, thậm chí đôi khi trong giờ làm việc cũng cố rút ra chút thời gian lịch trình bận rộn để giúp. Một thành viên khác không thể nhịn được nữa và đăng một đoạn bày tỏ ý kiến với "Người có tâm" như sau: *"Nếu bạn không trả tiền cho người khác, thì đừng đòi hỏi quá nhiều từ họ. Ngay cả khi bạn có trả tiền, đó cũng là sự tương hỗ về quyền và nghĩa vụ sau khi thương lượng"*.
+Theo những thành viên khác trong nhóm, quản trị viên chỉ tranh thủ lúc rảnh để góp ý PPT cho mọi người, thậm chí đôi khi trong giờ làm việc cũng cố rút ra chút thời gian lịch trình bận rộn để giúp. Một thành viên khác không thể nhịn được nữa và đăng một đoạn bày tỏ ý kiến với "Người có tâm" như sau: _"Nếu bạn không trả tiền cho người khác, thì đừng đòi hỏi quá nhiều từ họ. Ngay cả khi bạn có trả tiền, đó cũng là sự tương hỗ về quyền và nghĩa vụ sau khi thương lượng"_.
 
 Đã qua 10 giờ đêm nhưng một cộng đồng nào đó trên mạng vẫn đang hoạt động rất tích cực. Chủ đề thảo luận chung của nhóm này là các thiết kế trong phần mềm PowerPoint (PPT). Các thành viên có thể đăng tác phẩm vừa làm xong lên nhóm nhờ mọi người cho lời khuyên. Các chủ bài đăng đều mong nhận được những lời lời khen và góp ý từ các thành viên khác trong nhóm, đặc biệt là từ quản trị viên (là một chuyên gia trong lĩnh vực này).
 

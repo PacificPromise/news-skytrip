@@ -2,17 +2,16 @@
 layout: post
 code: post
 css: post
-title: 5 điểm đặc trưng của người có EQ thấp điển hình.
+title: 10 nguyên tắc tập luyện thể dục thể thao hiệu quả bạn cần biết.
+description: Thể dục thể thao là hoạt động thể chất nói chung cả trong nhà và ngoài trời với nhiều bộ môn, bài tập. Mục đích là tăng cường hoạt động cơ thể, kích thích hoạt động các nhóm cơ và cả những bộ phận cơ quan bên trong cơ thể.
+image: https://oreni.vn/uploads/contents/cac-nguyen-tac-tap-luyen-the-duc-the-thao-2.jpg
 date: 2022-12-09 16:15:02 +0700
 categories: course
 ---
 
-
 # **10 nguyên tắc tập luyện thể dục thể thao hiệu quả bạn cần biết**
 
-
 ## **Thể dục thể thao là một điều hữu ích, có nhiều lợi ích cho sức khỏe. Nhưng bạn cần tuân thủ các nguyên tắc tập luyện thể dục thể thao để đảm bảo tính hiệu quả, an toàn cho bản thân trong quá trình rèn luyện thể chất. Vậy đó là những nguyên tắc tập luyện thể thao gì? Bạn hãy cùng tìm hiểu điều đó một cách chi tiết nhất qua bài viết này nhé.**
-
 
 ### **1. Thể dục thể thao là gì?**
 
@@ -25,7 +24,6 @@ Bạn có thể tập luyện với cường độ khác nhau thông qua nhiều
 Đây là hoạt động thường được tập luyện vào buổi sáng, chiều tối đến tối và bạn có thể tập cá nhân hoặc cùng với nhiều người khác (có thể là nhóm bạn, người cùng tập ở một trung tâm) có sự hướng dẫn của huấn luyện viên, nếu như ở trong phòng tập.
 
 Thể dục thể thao mang đến nhiều lợi ích cho sức khỏe chúng ta, giúp nâng cao đề kháng, phòng tránh bệnh tật, kích thích tiêu hoá, ăn ngủ tốt hơn và có một tinh thần phấn chấn, sảng khoái, nhất là tỉnh giấc sau khi ngủ hoặc sau giờ làm...
-
 
 ### **2. Nguyên tắc thể dục thể thao là gì? Tại sao cần tập luyện theo nguyên tắc?**
 

@@ -3,6 +3,8 @@ layout: post
 code: post
 css: post
 title: Welcome to Jekyll!
+description: Những ngày cuối năm, nhiều người vừa đến công ty đã thở dài thườn thượt, cảm thán vì thời gian trôi qua quá nhanh. Chỉ còn gần một tháng nữa là năm 2022 sẽ kết thúc, chúng ta lại sắp sửa bước sang một năm mới với nhiều điều còn trăn trở và dang dở trên tay.
+image: https://kenh14cdn.com/203336854389633024/2022/12/8/photo-3-1670476208390104538624.jpeg
 date: 2022-11-30 16:15:02 +0700
 categories: jekyll update
 ---
@@ -11,10 +13,9 @@ categories: jekyll update
 
 ## **Mọi ước nguyện của năm cũ, liệu rằng bạn đã thực hiện được hết hay chưa? Nếu chưa, cũng đừng quá lo lắng nhé. Hãy làm tốt bốn điều này, nhất định năm sau sẽ là một năm đột phá và có những bước tiến lớn.**
 
-
 Những ngày cuối năm, nhiều người vừa đến công ty đã thở dài thườn thượt, cảm thán vì thời gian trôi qua quá nhanh. Chỉ còn gần một tháng nữa là năm 2022 sẽ kết thúc, chúng ta lại sắp sửa bước sang một năm mới với nhiều điều còn trăn trở và dang dở trên tay.
 
-*Đúng vậy, thời gian có bao giờ dịu dàng với một ai?*
+_Đúng vậy, thời gian có bao giờ dịu dàng với một ai?_
 
 Mọi ước nguyện của năm cũ, liệu rằng bạn đã thực hiện được hết hay chưa?
 
@@ -36,7 +37,7 @@ Hãy tin rằng sự chăm chỉ sẽ không bao giờ là vô ích, những h�
 
 Hãy nhớ rằng, sức khỏe là thứ quan trọng hàng đầu mà bạn không được lơ là. Có sức khỏe, chúng ta có thể làm được mọi việc. Không có sức khỏe, mọi cố gắng sau này chỉ có thể là vô ích.
 
-Tháng cuối cùng của năm 2022, giám đốc Lý từng nói với chúng tôi, dù đây là giai đoạn cuối năm, nhiều việc phải làm. Nhưng ông ấy cũng căn dặn nhân viên cẩn thận rằng: *"Nên biết nghỉ ngơi hợp lý, không được thức khuya, nếu cảm thấy mệt phải lo nghỉ ngơi, không được tiêu hao sức khỏe quá mức"*.
+Tháng cuối cùng của năm 2022, giám đốc Lý từng nói với chúng tôi, dù đây là giai đoạn cuối năm, nhiều việc phải làm. Nhưng ông ấy cũng căn dặn nhân viên cẩn thận rằng: _"Nên biết nghỉ ngơi hợp lý, không được thức khuya, nếu cảm thấy mệt phải lo nghỉ ngơi, không được tiêu hao sức khỏe quá mức"_.
 
 Giám đốc Lý là một người lãnh đạo tài giỏi và rất tâm lý, ông không khuyến khích chúng tôi thường xuyên tăng ca.
 
