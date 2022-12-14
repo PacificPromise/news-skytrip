@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'),
+    url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2)
+      format('woff2');
+  font-display: swap;
+}
+
 /* Variable */
 $mobile-width: 480px;
 $tablet-width: 768px;
@@ -8,6 +18,7 @@ $primary-background-dark: #570b23;
 $primary-background-light: #bd194e;
 $white: #fff;
 $color-footer: #958860;
+$color-footer-md: #6D6146;
 
 /* Mixin */
 @mixin h3footer($size, $weight) {

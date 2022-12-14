@@ -257,7 +257,8 @@
           p {
             font-size: 15px;
             line-height: 18px;
-            color: $color-footer;
+            color: $color-footer-md;
+            font-family: Arial, Helvetica, sans-serif;
           }
         }
       }
@@ -311,7 +312,7 @@
           p {
             font-size: 16px;
             line-height: 18px;
-            color: $color-footer;
+            color: $color-footer-md;
             text-align: justify;
           }
           a {
@@ -320,7 +321,7 @@
             padding-left: 15px;
             font-size: 10px;
             font-weight: bold;
-            color: $color-footer;
+            color: $color-footer-md;
             line-height: 14px;
             text-transform: uppercase;
             text-decoration: none;
@@ -374,13 +375,13 @@
           .pl0 {
             font-size: 15px;
             line-height: 18px;
-            color: $color-footer;
+            color: $color-footer-md;
             margin: 0;
           }
           .phone-footer {
             font-size: 15px;
             line-height: 18px;
-            color: $color-footer;
+            color: $color-footer-md;
             margin: 0;
           }
           .associate-mail {
@@ -389,7 +390,7 @@
             margin-top: 5px;
             font-size: 15px;
             line-height: 15px;
-            color: $color-footer;
+            color: $color-footer-md;
             text-decoration: none;
           }
           .support {
@@ -454,7 +455,7 @@
         p {
           font-size: 16px;
           line-height: 18px;
-          color: $color-footer;
+          color: $color-footer-md;
           text-align: justify;
         }
       }
