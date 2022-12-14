@@ -4,9 +4,9 @@ code: post
 css: post
 title: Cách khiến bản thân trở nên tự tin hơn.
 description: Một trong những cách giúp bạn trở nên tự tin hơn là sống thật với bản thân. Sống thật với suy nghĩ và cảm xúc của mình giúp bạn cảm thấy tự do và thoải mái hơn. Khi bạn sống là chính bạn có nghĩa là bạn có thể thỏa thích làm những điều mình muốn mà không bị ai ép buộc hay sợ ai dòm ngó. Điều đó phần nào thể hiện sự tự tin cũng như cá tính của bạn.
-image: https://kenh14cdn.com/203336854389633024/2022/12/8/photo-2-16704626979731022318959.jpg
+image: /assets/images/cach-khien-ban-than-tu-tin-hon.webp
 date: 2022-12-08 16:15:02 +0700
-categories: jekyll update
+categories: news
 ---
 
 # **Cách khiến bản thân trở nên tự tin hơn**

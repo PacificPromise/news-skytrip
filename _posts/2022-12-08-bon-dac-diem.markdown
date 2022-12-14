@@ -4,9 +4,9 @@ code: post
 css: post
 title: 4 đặc điểm của phụ nữ thông minh và dễ khiến đàn ông say đắm.
 description: Nhiều người nói rằng, chỉ cần phụ nữ hấp dẫn thì sẽ khiến đàn ông bị thu hút. Tuy nhiên trên thực tế, đôi khi sự thú vị trong tâm hồn và cách suy nghĩ, cư xử còn có tác dụng lớn hơn rất nhiều.
-image: https://kenh14cdn.com/203336854389633024/2022/12/6/photo-2-16703395433551614531847.jpg
+image: /assets/images/4-dac-diem.webp
 date: 2022-12-08 16:15:02 +0700
-categories: jekyll update
+categories: news
 ---
 
 # **4 đặc điểm của phụ nữ thông minh và dễ khiến đàn ông say đắm**

@@ -8,7 +8,7 @@ css: home
     <div class="trending-1">
       <a href="{{ site.baseurl }}{{site.posts.first.url}}" class="trending-1-img">
         <img
-          src="{{ site.posts.first.image }}"
+          src="{{ site.baseurl }}{{ site.posts.first.image }}"
           alt="Nhật Bản tạo địa chấn đánh bại Tây Ban Nha, đứng đầu bảng tử thần"
         />
       </a>
@@ -44,7 +44,7 @@ css: home
       <div class="content-news-img">
         <a aria-label="read-more" href="{{ site.baseurl }}{{ post.url }}"
           ><img
-            src="{{ post.image }}"
+            src="{{ site.baseurl }}{{ post.image }}"
             alt=""
           />
         </a>

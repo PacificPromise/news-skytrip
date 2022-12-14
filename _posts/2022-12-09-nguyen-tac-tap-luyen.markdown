@@ -4,7 +4,7 @@ code: post
 css: post
 title: 10 nguyên tắc tập luyện thể dục thể thao hiệu quả bạn cần biết.
 description: Thể dục thể thao là hoạt động thể chất nói chung cả trong nhà và ngoài trời với nhiều bộ môn, bài tập. Mục đích là tăng cường hoạt động cơ thể, kích thích hoạt động các nhóm cơ và cả những bộ phận cơ quan bên trong cơ thể.
-image: https://oreni.vn/uploads/contents/cac-nguyen-tac-tap-luyen-the-duc-the-thao-2.jpg
+image: /assets/images/nguyen-tac-tap-the-duc.webp
 date: 2022-12-09 16:15:02 +0700
 categories: course
 ---
