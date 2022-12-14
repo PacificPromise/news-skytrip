@@ -7,6 +7,12 @@ description: CẢM NHẬN CƠ BẮP chứ không tập quá nặng. Hơn nữa, 
 image: /assets/images/cac-bai-tap-vai-co-ban-1.webp
 date: 2022-12-09 16:15:02 +0700
 categories: course
+ratio: -53%
+name: Điền Bá Lực
+price: "800.000"
+discount: "250.000"
+vote: ★★★★★
+amount: (348)
 ---
 
 # **Các Bài Tập Vai Cơ Bản – Cẩm Nang Cho Người Mới**

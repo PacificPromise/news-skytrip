@@ -37,6 +37,7 @@ css: home
   </div>
   <div class="news">
     {% for post in site.posts %}
+    {% if post.categories contains "news" %}
     <div class="content-news">
       <div class="content-news-title">
         <a aria-label="read-more" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -54,6 +55,7 @@ css: home
         </div>
       </div>
     </div>
+    {% endif %}
     {% endfor %}
 
   </div>

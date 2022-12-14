@@ -7,6 +7,12 @@ description: Đặt lưng thoải mái trên ghế bằng, 2 chân đạp xuốn
 image: /assets/images/cac-bai-tap-nguc-co-ban.webp
 date: 2022-12-09 16:15:02 +0700
 categories: course
+ratio: -43%
+name: Lê Na
+price: "600.000"
+discount: "200.000"
+vote: ★★★★★
+amount: (148)
 ---
 
 # **Các Bài Tập Ngực Cơ Bản – Cẩm Nang Cho Người Mới**

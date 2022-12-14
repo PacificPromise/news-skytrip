@@ -7,6 +7,12 @@ description: SQUAT có rất nhiều biến thể, hôm nay tôi chỉ nói về
 image: /assets/images/squat-tu-the-chinh-xac.webp
 date: 2022-12-09 16:15:02 +0700
 categories: course
+ratio: -33%
+name: Tô Bá Mạnh
+price: "600.000"
+discount: "250.000"
+vote: ★★★★★
+amount: (78)
 ---
 
 # **Squat là gì? [Bài tập thần thánh] và 5 biến thể từ dễ đến khó**

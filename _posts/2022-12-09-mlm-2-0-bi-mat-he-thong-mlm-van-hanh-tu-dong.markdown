@@ -7,6 +7,12 @@ description: Trang bị đủ kỹ năng, phương pháp để bạn hiểu rõ 
 image: /assets/images/kinh-doanh.webp
 date: 2022-12-09 16:15:02 +0700
 categories: course
+ratio: -33%
+name: Cẩm Mạnh Linh
+price: "600.000"
+discount: "250.000"
+vote: ★★★★★
+amount: (68)
 ---
 
 # **TikTok : Tiếp cận 100.000+ khách hàng trong 30 ngày với chi phí 0 đồng**

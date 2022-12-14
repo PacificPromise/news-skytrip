@@ -2,11 +2,17 @@
 layout: post
 code: post
 css: post
-title: Nghệ thuật J đỉnh cao
-description: J là cả một bộ môn nghệ thuật
+title: Nghệ thuật BJ đỉnh cao
+description: BJ là cả một bộ môn nghệ thuật
 image: /assets/images/nghe-thuat-thoi-ken-dinh-cao.webp
 date: 2022-12-09 16:15:02 +0700
 categories: course
+ratio: -32%
+name: Trang Trần
+price: "700.000"
+discount: "479.000"
+vote: ★★★★★
+amount: (696)
 ---
 
 # **Nghệ thuật J đỉnh cao**

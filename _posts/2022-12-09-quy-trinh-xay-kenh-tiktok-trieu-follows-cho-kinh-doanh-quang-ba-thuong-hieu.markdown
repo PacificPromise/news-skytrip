@@ -7,6 +7,12 @@ description: Video ngắn và TikTok đang ngày càng chiếm được vị tr�
 image: /assets/images/tiktok-logo.webp
 date: 2022-12-09 16:15:02 +0700
 categories: course
+ratio: -23%
+name: Cẩm Mạnh Linh
+price: "390.000"
+discount: "299.000"
+vote: ★★★★★
+amount: (15)
 ---
 
 # **TikTok : Tiếp cận 100.000+ khách hàng trong 30 ngày với chi phí 0 đồng**

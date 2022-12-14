@@ -7,6 +7,12 @@ description: Giúp bạn biết thiết kế âm thanh, video, hiệu ứng, hì
 image: /assets/images/khoa-hoc-powerpoint-2.webp
 date: 2022-12-09 16:15:02 +0700
 categories: course
+ratio: 15%
+name: Nguyễn Đức Thanh
+price: "600.000"
+discount: "499.000"
+vote: ★★★★★
+amount: (28)
 ---
 
 # **Thiết kế trình chiếu PowerPoint 2016 từ A-Z**

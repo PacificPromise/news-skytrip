@@ -7,6 +7,12 @@ description: Thể dục thể thao là hoạt động thể chất nói chung c
 image: /assets/images/nguyen-tac-tap-the-duc.webp
 date: 2022-12-09 16:15:02 +0700
 categories: course
+ratio: -33%
+name: Cẩm Mạnh Linh
+price: "600.000"
+discount: "250.000"
+vote: ★★★★★
+amount: (648)
 ---
 
 # **10 nguyên tắc tập luyện thể dục thể thao hiệu quả bạn cần biết**
