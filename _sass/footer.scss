@@ -215,7 +215,7 @@
         width: 100%;
         @include row-nowrap;
         border: 1px solid #e7e7e7;
-        padding: 15px 20px;
+        padding: 15px 20px 15px 10px;
         background: #fff;
         a {
           img {
@@ -261,7 +261,7 @@
               padding: 0 1px;
               margin: 0;
               @include desktop {
-                padding: 0 6px 0 28px;
+                padding: 0 6px 0 10px;
                 margin-top: 3px;
               }
             }
