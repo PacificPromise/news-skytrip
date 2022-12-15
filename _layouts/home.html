@@ -6,33 +6,40 @@ css: home
 <div class="container">
   <div class="trending">
     <div class="trending-1">
-      <a href="{{ site.baseurl }}{{site.posts.first.url}}" class="trending-1-img">
+      {% for post in site.posts limit:1 %}
+      {% if post.categories contains "hot" %}
+      <a href="{{ site.baseurl }}{{post.url}}" class="trending-1-img">
         <img
-          src="{{ site.baseurl }}{{ site.posts.first.image }}"
-          alt="Nhật Bản tạo địa chấn đánh bại Tây Ban Nha, đứng đầu bảng tử thần"
+          src="{{ site.baseurl }}{{ post.image }}"
+          alt="{{ post.title }}"
         />
       </a>
-      <a aria-label="read-more" href="{{ site.baseurl }}{{site.posts.first.url}}" class="trending-1-title">{{ site.posts.first.title }}</a>
-      <!-- Links are not crawlable -->
+      <a aria-label="read-more" href="{{ site.baseurl }}{{post.url}}" class="trending-1-title">{{ post.title }}</a>
       <div class="more-info">
-        <a aria-label="read-more" href="{{ site.baseurl }}{{site.posts.first.url}}" class="link-star">{{ site.posts.first.categories }}</a
-        ><!-- Links are not crawlable -->
+        <a aria-label="read-more" href="{{ site.baseurl }}{{post.url}}" class="link-star">{{ post.categories }}</a>
         <p>
-          {{ site.posts.first.description }}
+          {{ post.description }}
         </p>
       </div>
+      {% endif %}
+      {% endfor %}
     </div>
+
     <div class="trending-2">
-      <a aria-label="read-more" href="/" class="trending-2-img">
-        <!-- Links are not crawlable -->
-        <img src="{{ site.baseurl }}/assets/images/trending-2-2.webp" alt="" />
+      {% for post in site.posts %}
+      {% if post.categories contains "update" %}
+      <a aria-label="read-more" href="{{ site.baseurl }}{{post.url}}" class="trending-2-img">
+        <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}" />
       </a>
-      <a aria-label="read-more" href="/" class="trending-2-title"
-        >Liên quan đến vụ bé gái 5 tuổi bị chủ cửa hàng quay video đăng tải lên
-        mạng kèm cáo buộc “ăn cắp”, chính quyền sẽ đưa bé đi giám định sức khỏe,
-        làm căn cứ xử lý.
-      </a>
-      <!-- Links are not crawlable -->
+      <a aria-label="read-more" href="{{ site.baseurl }}{{post.url}}" class="trending-2-title">{{ post.title }}</a>
+      <div class="more-info">
+        <a aria-label="read-more" href="{{ site.baseurl }}{{post.url}}" class="link-star">{{ post.categories }}</a>
+        <p>
+          {{ post.description }}
+        </p>
+      </div>
+      {% endif %}
+      {% endfor %}
     </div>
   </div>
   <div class="news">

@@ -46,8 +46,14 @@
       box-sizing: border-box;
       border-bottom: 1px solid #ff6d19;
       @include tablet() {
+        margin-bottom: 10px;
         border-bottom: none;
         font-size: 22px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
       }
       @include desktop() {
         border-bottom: none;
@@ -73,6 +79,7 @@
   }
 
   .trending-1-title {
+    margin-top: 10px;
     @include title(22px, #333);
     text-decoration: none;
     font-weight: bolder;
@@ -99,6 +106,7 @@
 
         img {
           height: 100%;
+          width: 100%;
         }
       }
     }
@@ -106,9 +114,21 @@
 
   .trending-2-title {
     @include title(19px, #222);
-    padding: 12px 15px 20px;
+    padding: 12px 15px 0;
     font-weight: bold;
     background-image: linear-gradient(#ebebeb, #fff);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+  .more-info {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
   }
   .news {
     .video {
