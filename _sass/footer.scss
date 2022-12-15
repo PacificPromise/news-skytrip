@@ -57,6 +57,19 @@
   }
   .copyright {
     @extend .responsible;
+    .contact-fb {
+      @include row-nowrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 3%;
+      a {
+        img {
+          width: 32px;
+          height: 32px;
+        }
+      }
+    }
+
     p {
       @include h3footer-mb(14px, none);
     }
