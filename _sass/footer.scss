@@ -356,6 +356,13 @@
           @include column-mowarp;
 
           margin-bottom: 10px;
+          a {
+              font-size: 15px;
+              font-weight: bold;
+              color: $color-footer-md;
+              margin-bottom: 8px;
+              text-decoration: none;
+            }
 
           .col-title {
             font-size: 15px;
