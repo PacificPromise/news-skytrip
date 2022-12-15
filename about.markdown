@@ -6,7 +6,7 @@ layout: default
 ---
 
 
-![Tux, the Linux mascot]({{ site.baseurl }}/assets/images/logo.webp)
+![Tux, the Linux mascot]({{ site.baseurl }}/assets/images/logo_skygofl_fb.webp)
 # **Giới Thiệu Website**
 
 ### **[Sport.com](https://sport.com/)** là một website tổng hợp thông tin tiếng Việt hoàn toàn được điều khiển tự động bởi máy tính. Mỗi ngày gần 6500 tin tức từ gần 200 nguồn chính thức của các báo điện tử và trang tin điện tử Việt Nam được **[Sport.com](https://sport.com/)** tự động tổng hợp, phân loại, phát hiện các bài đăng lại, nhóm các bài viết liên quan và hiển thị theo sở thích đọc tin của từng độc giả.

@@ -290,6 +290,9 @@
         }
       }
       .facebook {
+
+        background-position: -71px -117px;
+        background-size: 150%;
        
         border: 1px solid #e7e7e7;
         width: 100%;
@@ -301,15 +304,15 @@
           align-items: flex-start;
 
           .facebook-page-logo {
-            img {
-              box-shadow: 0 1px 6px rgba(78, 76, 76, 0.5);
+            img {;
               height: 50px;
+              background: none
             }
           }
           .facebook-page-info {
             @include column-mowarp;
             a {
-              color: white;
+              color: rgb(62, 110, 199);
               text-decoration: none;
               font-family: Arial, Helvetica, sans-serif;
               font-size: 18pt;
@@ -328,6 +331,9 @@
       }
     }
     .footer-bottom {
+
+      border-top: 3px solid #ff5e34;
+      padding-top: 2%;
       @include row-nowrap;
       margin: 3% 0 0 0;
 
@@ -349,6 +355,7 @@
             line-height: 18px;
             color: $color-footer-md;
             text-align: justify;
+            margin: 4% 0;
           }
           a:hover {
             text-decoration: underline;
@@ -358,7 +365,7 @@
             display: block;
             height: 15px;
             padding-left: 15px;
-            font-size: 10px;
+            font-size: 13px;
             font-weight: bold;
             color: $color-footer-md;
             line-height: 14px;
@@ -367,19 +374,9 @@
             margin-top: 8px;
             position: relative;
 
-            /*chưa làm được
-						::before {
-							display: block;
-							width: 9px;
-							height: 13px;
-							background-image: url(https://kenh14cdn.com/web_images/k14h-sprite_v1.png);
-							background-repeat: no-repeat;
-							background-position: -257px -167px;
-							content: '';
-							position: absolute;
-							top: 0;
-							left: 0;
-						}*/
+            background-size: 6%;
+            background-position: -2px -2px;
+            background-repeat: no-repeat;
           }
         }
       }
@@ -453,7 +450,7 @@
               margin-top: 15px;
               height: 24px;
               padding: 0 15px;
-              background: #0026ff;
+              background: #0026ffc7;
               font-size: 12px;
               font-weight: bold;
               color: #fff;
@@ -462,6 +459,8 @@
               border-radius: 2px;
               margin-right: 10px;
               width: fit-content;
+
+
             }
             .detail-ad:hover {
               border: 2px solid #731030;
@@ -493,9 +492,11 @@
         @include column-mowarp;
 
         .logo-corp {
-          background-image: url(https://vccorp.mediacdn.vn/vccorp-s.png);
-          width: 100px;
-          height: 49px;
+          width: 150px;
+          height: 46px;
+
+          background-size: 115%;
+          background-repeat: no-repeat;
         }
         .col-title {
           font-size: 15px;
