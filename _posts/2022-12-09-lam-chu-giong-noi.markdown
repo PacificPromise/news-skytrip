@@ -7,6 +7,12 @@ description: Khóa học làm chủ giọng nói sẽ giúp bạn hiểu về gi
 image: /assets/images/the-voice.webp
 date: 2022-12-09 16:15:02 +0700
 categories: course
+ratio: -34%
+name: Trần Thị Minh Hải
+price: "600.000"
+discount: "399.000"
+vote: ★★★★★
+amount: (303)
 ---
 
 # **Làm chủ giọng nói**

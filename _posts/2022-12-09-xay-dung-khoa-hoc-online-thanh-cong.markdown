@@ -7,6 +7,12 @@ description: Khóa học giúp bạn xây dựng khóa học online một cách 
 image: /assets/images/thu-nhap-thu-dong.webp
 date: 2022-12-09 16:15:02 +0700
 categories: course
+ratio: -33%
+name: Hoàng Mạnh Quý
+price: "600.000"
+discount: "250.000"
+vote: ★★★★★
+amount: (38)
 ---
 
 # **TikTok : Tiếp cận 100.000+ khách hàng trong 30 ngày với chi phí 0 đồng**

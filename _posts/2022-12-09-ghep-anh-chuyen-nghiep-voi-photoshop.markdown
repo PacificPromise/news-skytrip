@@ -7,6 +7,12 @@ description: Học ghép ảnh, thiết kế ảnh đẹp, hấp dẫn, thỏa s
 image: /assets/images/hoc-photoshop.webp
 date: 2022-12-09 16:15:02 +0700
 categories: course
+ratio: -33%
+name: Huy Quần Hoa
+price: "600.000"
+discount: "250.000"
+vote: ★★★★★
+amount: (248)
 ---
 
 # **Ghép ảnh chuyên nghiệp với Photoshop**

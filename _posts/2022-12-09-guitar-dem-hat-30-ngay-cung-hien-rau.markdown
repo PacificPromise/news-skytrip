@@ -7,6 +7,12 @@ description: Khóa học Guitar Online đã được giảng viên tổng hợp 
 image: /assets/images/hoc-guitar.webp
 date: 2022-12-09 16:15:02 +0700
 categories: course
+ratio: -50%
+name: Vũ Văn Hiển
+price: "300.000"
+discount: "150.000"
+vote: ★★★★★
+amount: (68)
 ---
 
 # **Guitar đệm hát 30 ngày cùng Hiển Râu**

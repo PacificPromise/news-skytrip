@@ -65,111 +65,33 @@ css: course
     </div>
     <div class="cover">
       {% for post in site.posts %}
+      {% if post.categories contains "course" %}
       <div class="detail">
         <div class="box">
           <a href="{{ site.baseurl }}{{ post.url }}">
-            <span>-58%</span>
+            <span>{{ post.ratio }}</span>
             <img
-              src="{{ post.image }}"
+              src="{{ site.baseurl }}{{ post.image }}"
               alt="{{ post.title }}"
             />
             <div class="content-course">
               <h3>{{ post.title }}</h3>
               <div class="name">
-                <b>Đặng Trọng Khang</b>
-                <div class="price">600.000<sup>đ</sup></div>
+                <b>{{ post.name }}</b>
+                <div class="price">{{ post.price }}<sup>đ</sup></div>
               </div>
             </div>
             <div class="price-course">
               <div class="rate-combo">
-                <p><i>★★★★★ </i>(648)</p>
+                <p><i>{{ post.vote }} </i>{{ post.amount }}</p>
               </div>
-              <div class="price">250.000<sup>đ</sup></div>
+              <div class="price">{{ post.discount }}<sup>đ</sup></div>
             </div>
           </a>
         </div>
       </div>
+      {% endif %}
       {% endfor %}
-
-      <!-- <div class="detail">
-        <div class="box">
-          <a href="#">
-            <span>-34%</span>
-            <img
-              width="100%"
-              height="100%"
-              src="{{ site.baseurl }}/assets/images/khoa-hoc-lam-chu-giong-noi.webp"
-              alt="sửa sau khi map detail"
-            />
-            <div class="content-course">
-              <h3>Làm chủ giọng nói</h3>
-              <div class="name">
-                <b>Trần Thị Minh Hải</b>
-                <div class="price">600.000<sup>đ</sup></div>
-              </div>
-            </div>
-            <div class="price-course">
-              <div class="rate-combo">
-                <p><i>★★★★★ </i>(303)</p>
-              </div>
-              <div class="price">399.000<sup>đ</sup></div>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="detail">
-        <div class="box">
-          <a href="#">
-            <span>-58%</span>
-            <img
-              width="100%"
-              height="100%"
-              src="{{ site.baseurl }}/assets/images/nghe-thuat-thoi-ken-dinh-cao.webp"
-              alt="sửa sau khi map detail"
-            />
-            <div class="content-course">
-              <h3>Nghệ thuật J đỉnh cao</h3>
-              <div class="name">
-                <b>Trang Trần</b>
-                <div class="price">700.000<sup>đ</sup></div>
-              </div>
-            </div>
-            <div class="price-course">
-              <div class="rate-combo">
-                <p><i>★★★★★ </i>(648)</p>
-              </div>
-              <div class="price">479.000<sup>đ</sup></div>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="detail">
-        <div class="box">
-          <a href="#">
-            <span>-63%</span>
-            <img
-              width="100%"
-              height="100%"
-              src="{{ site.baseurl }}/assets/images/hoc-photoshop.webp"
-              alt="sửa sau khi map detail"
-            />
-            <div class="content-course">
-              <h3>Cắt ghép Banner, Poster sản phẩm đơn giản bằng Photoshop</h3>
-              <div class="name">
-                <b>Mai Xuân Huy (Huy Quần Hoa)</b>
-                <div class="price">800.000<sup>đ</sup></div>
-              </div>
-            </div>
-            <div class="price-course">
-              <div class="rate-combo">
-                <p><i>★★★★★ </i>(18)</p>
-              </div>
-              <div class="price">299.000<sup>đ</sup></div>
-            </div>
-          </a>
-        </div>
-      </div> -->
-
     </div>
   </div>
 </div>
