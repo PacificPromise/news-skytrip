@@ -13,7 +13,7 @@ Cơ quan chủ quản: Công Ty TNHH SKYTIMES
 * #### Email: [skytimes.vn@gmail.com](mailto:skytimes.vn@gmail.com)  
 * #### Hỗ trợ & CSKH:  [0858565659](tel:+84858565659)
 * #### Địa chỉ:  
-Tháp B Tòa nhà SailS Tower - Kiến Hưng-Hà Đông - Hà Nội  
+Tháp B Tòa nhà SailS Tower - Kiến Hưng - Hà Đông - Hà Nội  
 
 ---
 
@@ -21,21 +21,21 @@ Tháp B Tòa nhà SailS Tower - Kiến Hưng-Hà Đông - Hà Nội
 * #### Email: [skytimes.vn@gmail.com](mailto:skytimes.vn@gmail.com)  
 * #### Điện thoại liên hệ:  [0858565659](tel:+84858565659)
 * #### Địa chỉ:  
-Tháp B Tòa nhà SailS Tower - Kiến Hưng-Hà Đông - Hà Nội
+Tháp B Tòa nhà SailS Tower - Kiến Hưng - Hà Đông - Hà Nội
 
 ---
 ## 3. Liên hệ đầu tư
 * #### Email: [skytimes.vn@gmail.com](mailto:skytimes.vn@gmail.com)   
 * #### Điện thoại liên hệ:  [0858565659](tel:+84858565659)
 * #### Địa chỉ:  
-Tháp B Tòa nhà SailS Tower - Kiến Hưng-Hà Đông - Hà Nội
+Tháp B Tòa nhà SailS Tower - Kiến Hưng - Hà Đông - Hà Nội
 
 ---
 ## 4. Liên hệ quảng cáo
 * #### Email: [skytimes.vn@gmail.com](mailto:skytimes.vn@gmail.com)   
 * #### Điện thoại liên hệ:  [0858565659](tel:+84858565659)
 * #### Địa chỉ:  
-Tháp B Tòa nhà SailS Tower - Kiến Hưng-Hà Đông - Hà Nội 
+Tháp B Tòa nhà SailS Tower - Kiến Hưng - Hà Đông - Hà Nội 
   
 ---
 
@@ -43,10 +43,10 @@ Tháp B Tòa nhà SailS Tower - Kiến Hưng-Hà Đông - Hà Nội
 * #### Email: [skytimes.vn@gmail.com](mailto:skytimes.vn@gmail.com)    
 * #### Điện thoại liên hệ:  [0858565659](tel:+84858565659)
 * #### Địa chỉ:  
-Tháp B Tòa nhà SailS Tower - Kiến Hưng-Hà Đông - Hà Nội
+Tháp B Tòa nhà SailS Tower - Kiến Hưng - Hà Đông - Hà Nội
 
 ---
-### [XEM BÁO GIÁ CHI TIẾT](/sportwebsite/course/)
+### [XEM BÁO GIÁ CHI TIẾT]({{site.baseurl}}/course/)
 
 
 ![Tux, the Linux mascot]({{ site.baseurl }}/assets/images/logo_skygofl_fb.webp)
