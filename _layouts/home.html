@@ -67,129 +67,22 @@ css: home
 
   </div>
     <div class="dont-miss">
-      <h3>đừng bỏ lỡ</h3>
+      <h3>đừng bỏ lỡ các khoá học bổ ích</h3>
       <ul class="dont-miss-list">
+        {% for post in site.posts %}
+       {% if post.categories contains "course" %}
         <li>
-          <a aria-label="read-more" href="/" class="dont-miss-img"
+          <a aria-label="read-more" href="{{ site.baseurl }}{{ post.url }}" class="dont-miss-img"
             ><img
-              src="{{ site.baseurl }}/assets/images/dont-miss-img-1.webp"
+              src="{{ site.baseurl }}{{ post.image }}"
               alt=""
           /></a>
           <!-- Links are not crawlable -->
-          <a aria-label="read-more" href="/" class="dont-miss-text"
-            >FIFA mở cuộc điều tra, Messi có thể bị cấm đá bán kết</a
+          <a aria-label="read-more" href="{{ site.baseurl }}{{ post.url }}" class="dont-miss-text"
+            >{{ post.title }}</a
           >
-          <!-- Links are not crawlable -->
-        </li>
-        <li>
-          <a aria-label="read-more" href="/" class="dont-miss-img"
-            ><img
-              src="{{ site.baseurl }}/assets/images/dont-miss-img-1.webp"
-              alt=""
-          /></a>
-          <!-- Links are not crawlable -->
-
-          <a aria-label="read-more" href="/" class="dont-miss-text"
-            >FIFA mở cuộc điều tra, Messi có thể bị cấm đá bán kết</a
-          >
-          <!-- Links are not crawlable -->
-        </li>
-        <li>
-          <a aria-label="read-more" href="/" class="dont-miss-img"
-            ><img
-              src="{{ site.baseurl }}/assets/images/dont-miss-img-1.webp"
-              alt=""
-          /></a>
-          <!-- Links are not crawlable -->
-          <a aria-label="read-more" href="/" class="dont-miss-text"
-            >FIFA mở cuộc điều tra, Messi có thể bị cấm đá bán kết</a
-          >
-          <!-- Links are not crawlable -->
-        </li>
-        <li>
-          <a aria-label="read-more" href="/" class="dont-miss-img"
-            ><img
-              src="{{ site.baseurl }}/assets/images/dont-miss-img-1.webp"
-              alt=""
-          /></a>
-          <!-- Links are not crawlable -->
-          <a aria-label="read-more" href="/" class="dont-miss-text"
-            >FIFA mở cuộc điều tra, Messi có thể bị cấm đá bán kết</a
-          >
-          <!-- Links are not crawlable -->
-        </li>
-        <li>
-          <a aria-label="read-more" href="/" class="dont-miss-img"
-            ><img
-              src="{{ site.baseurl }}/assets/images/dont-miss-img-1.webp"
-              alt=""
-          /></a>
-          <!-- Links are not crawlable -->
-          <a aria-label="read-more" href="/" class="dont-miss-text"
-            >FIFA mở cuộc điều tra, Messi có thể bị cấm đá bán kết</a
-          >
-          <!-- Links are not crawlable -->
-        </li>
-        <li>
-          <a aria-label="read-more" href="/" class="dont-miss-img"
-            ><img
-              src="{{ site.baseurl }}/assets/images/dont-miss-img-1.webp"
-              alt=""
-          /></a>
-          <!-- Links are not crawlable -->
-          <a aria-label="read-more" href="/" class="dont-miss-text"
-            >FIFA mở cuộc điều tra, Messi có thể bị cấm đá bán kết</a
-          >
-          <!-- Links are not crawlable -->
-        </li>
-        <li>
-          <a aria-label="read-more" href="/" class="dont-miss-img"
-            ><img
-              src="{{ site.baseurl }}/assets/images/dont-miss-img-1.webp"
-              alt=""
-          /></a>
-          <!-- Links are not crawlable -->
-          <a aria-label="read-more" href="/" class="dont-miss-text"
-            >FIFA mở cuộc điều tra, Messi có thể bị cấm đá bán kết</a
-          >
-          <!-- Links are not crawlable -->
-        </li>
-        <li>
-          <a aria-label="read-more" href="/" class="dont-miss-img"
-            ><img
-              src="{{ site.baseurl }}/assets/images/dont-miss-img-1.webp"
-              alt=""
-          /></a>
-          <!-- Links are not crawlable -->
-          <a aria-label="read-more" href="/" class="dont-miss-text"
-            >FIFA mở cuộc điều tra, Messi có thể bị cấm đá bán kết</a
-          >
-          <!-- Links are not crawlable -->
-        </li>
-        <li>
-          <a aria-label="read-more" href="/" class="dont-miss-img"
-            ><img
-              src="{{ site.baseurl }}/assets/images/dont-miss-img-1.webp"
-              alt=""
-          /></a>
-          <!-- Links are not crawlable -->
-          <a aria-label="read-more" href="/" class="dont-miss-text"
-            >FIFA mở cuộc điều tra, Messi có thể bị cấm đá bán kết</a
-          >
-          <!-- Links are not crawlable -->
-        </li>
-        <li>
-          <a aria-label="read-more" href="/" class="dont-miss-img"
-            ><img
-              src="{{ site.baseurl }}/assets/images/dont-miss-img-1.webp"
-              alt=""
-          /></a>
-          <!-- Links are not crawlable -->
-          <a aria-label="read-more" href="/" class="dont-miss-text"
-            >FIFA mở cuộc điều tra, Messi có thể bị cấm đá bán kết</a
-          >
-          <!-- Links are not crawlable -->
-        </li>
+          {% endif %}
+    {% endfor %}
       </ul>
     </div>
   </div>
