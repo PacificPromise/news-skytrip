@@ -113,6 +113,11 @@
     font-size: 13px;
     color: $color-footer;
     line-height: 48px;
+
+    background-repeat: no-repeat;
+    background-position:left;
+    padding-left: 18px;
+    background-size: 10%;
   }
 }
 .ad-e-mail {
@@ -123,6 +128,10 @@
     font-size: 13px;
     color: $color-footer;
     line-height: 48px;
+    background-repeat: no-repeat;
+    background-position:left;
+    padding-left: 18px;
+
   }
   .phonenumber-ad {
     @include row-nowrap();
@@ -398,6 +407,8 @@
               color: $color-footer-md;
               margin-bottom: 8px;
               text-decoration: none;
+              background-repeat: no-repeat;
+              padding-left: 18px;
             }
           a:hover {
             text-decoration: underline;
