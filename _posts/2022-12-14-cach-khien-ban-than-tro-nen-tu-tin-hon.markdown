@@ -33,7 +33,7 @@ Một trong những điều giúp bạn trở nên tự tin hơn là hãy tử t
 
 Áp lực không bao giờ giúp bạn trở nên tự tin hơn, ngược lại, chỉ càng làm bạn mỏi mệt. Khi bạn thoải mái với mọi thứ, bạn cũng có xu hướng thích thể hiện bản thân. Điều đó giúp bạn trở nên tự tin và bản lĩnh hơn.
 
-![](https://kenh14cdn.com/203336854389633024/2022/12/8/photo-1-1670462691036827904855.jpg
+![](https://kenh14cdn.com/203336854389633024/2022/12/8/photo-1-1670462691036827904855.jpg)
 
 ### **4. Trở nên tích cực hơn**
 

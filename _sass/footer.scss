@@ -256,6 +256,8 @@
               @include row-nowrap;
             }
             a {
+              @include column-mowarp;
+              justify-content: center;
               font-size: 15px;
               font-weight: bold;
               color: $color-footer-md;
