@@ -4,9 +4,15 @@ code: post
 css: post
 title: Squat là gì? [Bài tập thần thánh] và 5 biến thể từ dễ đến khó.
 description: SQUAT có rất nhiều biến thể, hôm nay tôi chỉ nói về High Bar Squat là động tác chung nhất và nhiều người tập . Chia ra làm 3 giai đoạn như sau
-image: https://cuonggym.com/wp-content/uploads/2018/01/squat-tu-the-chinh-xac.jpg
+image: /assets/images/squat-tu-the-chinh-xac.webp
 date: 2022-12-09 16:15:02 +0700
 categories: course
+ratio: -33%
+name: Tô Bá Mạnh
+price: "600.000"
+discount: "250.000"
+vote: ★★★★★
+amount: (78)
 ---
 
 # **Squat là gì? [Bài tập thần thánh] và 5 biến thể từ dễ đến khó**

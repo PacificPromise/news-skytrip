@@ -4,9 +4,15 @@ code: post
 css: post
 title: Các Bài Tập Ngực Cơ Bản – Cẩm Nang Cho Người Mới.
 description: Đặt lưng thoải mái trên ghế bằng, 2 chân đạp xuống sàn, 2 tay cầm thanh đòn với độ rộng bằng vai (cầm rộng hơn sẽ tác động nhiều vào ngực, hẹp hơn sẽ tác động nhiều vào tay sau).
-image: https://kenh14cdn.com/203336854389633024/2022/12/8/photo-3-1670476590542511372834.jpg
+image: /assets/images/cac-bai-tap-nguc-co-ban.webp
 date: 2022-12-09 16:15:02 +0700
 categories: course
+ratio: -43%
+name: Lê Na
+price: "600.000"
+discount: "200.000"
+vote: ★★★★★
+amount: (148)
 ---
 
 # **Các Bài Tập Ngực Cơ Bản – Cẩm Nang Cho Người Mới**

@@ -2,11 +2,11 @@
 layout: post
 code: post
 css: post
-title: Welcome to Jekyll!
+title: Cuối năm...!
 description: Những ngày cuối năm, nhiều người vừa đến công ty đã thở dài thườn thượt, cảm thán vì thời gian trôi qua quá nhanh. Chỉ còn gần một tháng nữa là năm 2022 sẽ kết thúc, chúng ta lại sắp sửa bước sang một năm mới với nhiều điều còn trăn trở và dang dở trên tay.
-image: https://kenh14cdn.com/203336854389633024/2022/12/8/photo-3-1670476208390104538624.jpeg
+image: /assets/images/welcome-to-jekyll.webp
 date: 2022-11-30 16:15:02 +0700
-categories: jekyll update
+categories: update
 ---
 
 # **Tháng cuối cùng của năm, làm tốt 4 điều, năm 2022 của bạn sẽ không trôi qua uổng phí, “cứu” lại hết tiền tài đã mất!**

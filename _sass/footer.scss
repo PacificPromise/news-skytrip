@@ -57,6 +57,19 @@
   }
   .copyright {
     @extend .responsible;
+    .contact-fb {
+      @include row-nowrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 3%;
+      a {
+        img {
+          width: 32px;
+          height: 32px;
+        }
+      }
+    }
+
     p {
       @include h3footer-mb(14px, none);
     }
@@ -100,6 +113,11 @@
     font-size: 13px;
     color: $color-footer;
     line-height: 48px;
+
+    background-repeat: no-repeat;
+    background-position:left;
+    padding-left: 18px;
+    background-size: 10%;
   }
 }
 .ad-e-mail {
@@ -110,6 +128,10 @@
     font-size: 13px;
     color: $color-footer;
     line-height: 48px;
+    background-repeat: no-repeat;
+    background-position:left;
+    padding-left: 18px;
+
   }
   .phonenumber-ad {
     @include row-nowrap();
@@ -156,7 +178,10 @@
             color: red;
           }
           a {
-            font-size: 13px;
+            font-size: 10px;
+            @include desktop{
+              font-size: 13px;
+            }
             font-weight: bold;
             color: #424242;
             text-decoration: none;
@@ -170,12 +195,18 @@
           ::before {
             content: "|";
             color: #424242;
-            font-size: 13px;
+            font-size: 10px;
+            @include desktop{
+              font-size: 13px;
+            }
             margin: 0 2px;
           }
 
           a {
-            font-size: 13px;
+            font-size: 10px;
+            @include desktop{
+              font-size: 13px;
+            }
             font-weight: bold;
             color: #424242;
             text-decoration: none;
@@ -202,7 +233,7 @@
         width: 100%;
         @include row-nowrap;
         border: 1px solid #e7e7e7;
-        padding: 15px 20px;
+        padding: 15px 20px 15px 10px;
         background: #fff;
         a {
           img {
@@ -217,24 +248,40 @@
             font-weight: bold;
           }
           .questions-md {
-            @include row-nowrap;
+            @include column-mowarp;
             justify-content: flex-start;
             gap: 10%;
+            @include desktop {
+              font-size: 15px;
+              @include row-nowrap;
+            }
+            a {
+              font-size: 15px;
+              font-weight: bold;
+              color: $color-footer-md;
+              margin-bottom: 8px;
+              text-decoration: none;
+              
+            }
+            a:hover {
+              text-decoration: underline;
+            }
+
+            #questions:hover {
+              background-color: wheat;
+              border: 1px solid black;
+            }
             #questions {
               border: 1px solid #e7e7e7;
-
-              font-size: 11px;
+              font-size: 13px;
               font-weight: bold;
               color: #333;
               line-height: 24px;
               text-decoration: none;
-              margin-right: 12px;
-              margin-bottom: 5px;
 
-              padding: 0;
-              margin: 0;
+              margin: 10px 0;
               @include desktop {
-                padding: 0 6px 0 28px;
+                padding: 0 6px 0 10px;
                 margin-top: 3px;
               }
             }
@@ -259,11 +306,16 @@
             line-height: 18px;
             color: $color-footer-md;
             font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
           }
         }
       }
       .facebook {
-        background-image: url(https://kenh14cdn.com/web_images/k14_world_cup_2022.gif);
+        @include desktop {
+        }
+        background-size: 100%;
+        background-repeat: no-repeat;
+       
         border: 1px solid #e7e7e7;
         width: 100%;
         @include column-mowarp;
@@ -274,15 +326,23 @@
           align-items: flex-start;
 
           .facebook-page-logo {
-            img {
-              box-shadow: 0 1px 6px rgba(78, 76, 76, 0.5);
+            img {;
               height: 50px;
+              background: none
             }
           }
           .facebook-page-info {
             @include column-mowarp;
             a {
-              color: white;
+              color: rgb(62, 110, 199);
+              text-decoration: none;
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 18pt;
+
+              
+            }
+            a:hover {
+              text-decoration: underline;
             }
             p {
               color: white;
@@ -293,6 +353,9 @@
       }
     }
     .footer-bottom {
+
+      border-top: 3px solid #ff5e34;
+      padding-top: 2%;
       @include row-nowrap;
       margin: 3% 0 0 0;
 
@@ -314,12 +377,17 @@
             line-height: 18px;
             color: $color-footer-md;
             text-align: justify;
+            margin: 4% 0;
           }
+          a:hover {
+            text-decoration: underline;
+          } 
+          
           a {
             display: block;
             height: 15px;
             padding-left: 15px;
-            font-size: 10px;
+            font-size: 13px;
             font-weight: bold;
             color: $color-footer-md;
             line-height: 14px;
@@ -328,19 +396,9 @@
             margin-top: 8px;
             position: relative;
 
-            /*chưa làm được
-						::before {
-							display: block;
-							width: 9px;
-							height: 13px;
-							background-image: url(https://kenh14cdn.com/web_images/k14h-sprite_v1.png);
-							background-repeat: no-repeat;
-							background-position: -257px -167px;
-							content: '';
-							position: absolute;
-							top: 0;
-							left: 0;
-						}*/
+            background-size: 6%;
+            background-position: -2px -2px;
+            background-repeat: no-repeat;
           }
         }
       }
@@ -356,6 +414,18 @@
           @include column-mowarp;
 
           margin-bottom: 10px;
+          a {
+              font-size: 15px;
+              font-weight: bold;
+              color: $color-footer-md;
+              margin-bottom: 8px;
+              text-decoration: none;
+              background-repeat: no-repeat;
+              padding-left: 18px;
+            }
+          a:hover {
+            text-decoration: underline;
+          } 
 
           .col-title {
             font-size: 15px;
@@ -396,11 +466,15 @@
           .support {
             @include column-mowarp;
 
+            .chat:hover {
+              border: 2px solid #0026ff;
+              box-sizing: border-box;
+            }
             .chat {
               margin-top: 15px;
               height: 24px;
               padding: 0 15px;
-              background: #0026ff;
+              background: #0026ffc7;
               font-size: 12px;
               font-weight: bold;
               color: #fff;
@@ -409,6 +483,12 @@
               border-radius: 2px;
               margin-right: 10px;
               width: fit-content;
+
+
+            }
+            .detail-ad:hover {
+              border: 2px solid #731030;
+              box-sizing: border-box;
             }
             .detail-ad {
               margin-top: 15px;
@@ -436,9 +516,11 @@
         @include column-mowarp;
 
         .logo-corp {
-          background-image: url(https://vccorp.mediacdn.vn/vccorp-s.png);
-          width: 100px;
-          height: 49px;
+          width: 150px;
+          height: 46px;
+
+          background-size: 115%;
+          background-repeat: no-repeat;
         }
         .col-title {
           font-size: 15px;

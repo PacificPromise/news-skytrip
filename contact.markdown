@@ -7,56 +7,46 @@ layout: default
 
 # THÔNG TIN VỀ ĐƠN VỊ
 ### Trang điện tử thông tin thể thao
-Cơ quan chủ quản: công ty....
+Cơ quan chủ quản: Công Ty TNHH SKYTIMES 
 
 ## 1. Liên hệ tư vấn  
-## Admicro:  
-* #### Email: [abcxyz@gmail.com](mailto:abcxyz@gmail.com)  
-* #### Hỗ trợ & CSKH:  
-091xxxxxx - 092xxxxxx
+* #### Email: [skytimes.vn@gmail.com](mailto:skytimes.vn@gmail.com)  
+* #### Hỗ trợ & CSKH:  [0858565659](tel:+84858565659)
 * #### Địa chỉ:  
-Tầng 20, tòa nhà Center Building, Hapulico Complex, số 1 Nguyễn Huy Tưởng, phường Thanh Xuân Trung, quận Thanh Xuân, Hà Nội.   
+Tháp B Tòa nhà SailS Tower - Kiến Hưng - Hà Đông - Hà Nội  
 
 ---
 
 ## 2. Liên hệ hợp tác 
-* #### Email: [qwerty@gmail.com](mailto:qwerty@gmail.com)  
-* #### Điện thoại liên hệ:  
-091xxxxxx
+* #### Email: [skytimes.vn@gmail.com](mailto:skytimes.vn@gmail.com)  
+* #### Điện thoại liên hệ:  [0858565659](tel:+84858565659)
 * #### Địa chỉ:  
-Tầng 20, tòa nhà Center Building, Hapulico Complex, số 1 Nguyễn Huy Tưởng, phường Thanh Xuân Trung, quận Thanh Xuân, Hà Nội.     
-Tầng 6, Tòa nhà 123, 123 Võ Văn Tần, Phường 6, Quận 3, Tp Hồ Chí Minh.
+Tháp B Tòa nhà SailS Tower - Kiến Hưng - Hà Đông - Hà Nội
 
 ---
 ## 3. Liên hệ đầu tư
-* #### Email: [12345@gmail.com](mailto:12345@gmail.com)  
-* #### Điện thoại liên hệ:  
-091xxxxxx
+* #### Email: [skytimes.vn@gmail.com](mailto:skytimes.vn@gmail.com)   
+* #### Điện thoại liên hệ:  [0858565659](tel:+84858565659)
 * #### Địa chỉ:  
-Tầng 20, tòa nhà Center Building, Hapulico Complex, số 1 Nguyễn Huy Tưởng, phường Thanh Xuân Trung, quận Thanh Xuân, Hà Nội.     
-Tầng 6, Tòa nhà 123, 123 Võ Văn Tần, Phường 6, Quận 3, Tp Hồ Chí Minh.
+Tháp B Tòa nhà SailS Tower - Kiến Hưng - Hà Đông - Hà Nội
 
 ---
 ## 4. Liên hệ quảng cáo
-* #### Email: [67890@gmail.com](mailto:67890@gmail.com)  
-* #### Điện thoại liên hệ:  
-091xxxxxx
+* #### Email: [skytimes.vn@gmail.com](mailto:skytimes.vn@gmail.com)   
+* #### Điện thoại liên hệ:  [0858565659](tel:+84858565659)
 * #### Địa chỉ:  
-Tầng 20, tòa nhà Center Building, Hapulico Complex, số 1 Nguyễn Huy Tưởng, phường Thanh Xuân Trung, quận Thanh Xuân, Hà Nội.     
-Tầng 6, Tòa nhà 123, 123 Võ Văn Tần, Phường 6, Quận 3, Tp Hồ Chí Minh 
+Tháp B Tòa nhà SailS Tower - Kiến Hưng - Hà Đông - Hà Nội 
   
 ---
 
 ## 5. Liên hệ phản hồi, khiếu nại
-* #### Email: [3333@gmail.com](mailto:3333@gmail.com)  
-* #### Điện thoại liên hệ:  
-091xxxxxx
+* #### Email: [skytimes.vn@gmail.com](mailto:skytimes.vn@gmail.com)    
+* #### Điện thoại liên hệ:  [0858565659](tel:+84858565659)
 * #### Địa chỉ:  
-Tầng 20, tòa nhà Center Building, Hapulico Complex, số 1 Nguyễn Huy Tưởng, phường Thanh Xuân Trung, quận Thanh Xuân, Hà Nội.     
-Tầng 6, Tòa nhà 123, 123 Võ Văn Tần, Phường 6, Quận 3, Tp Hồ Chí Minh 
+Tháp B Tòa nhà SailS Tower - Kiến Hưng - Hà Đông - Hà Nội
 
 ---
-### [XEM BÁO GIÁ CHI TIẾT](HTTP://)
+### [XEM BÁO GIÁ CHI TIẾT]({{site.baseurl}}/course/)
 
 
-![Tux, the Linux mascot]({{ site.baseurl }}/assets/images/logo.webp)
+![Tux, the Linux mascot]({{ site.baseurl }}/assets/images/logo_skygofl_fb.webp)

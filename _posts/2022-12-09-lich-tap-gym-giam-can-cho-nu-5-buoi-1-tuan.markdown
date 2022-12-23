@@ -4,9 +4,9 @@ code: post
 css: post
 title: 5 điểm đặc trưng của người có EQ thấp điển hình.
 description: Có rất nhiều các lịch tâp khác nhau , mà chúng ta có thể dễ dàng lấy được trên mạng, nhưng làm sao để biết chúng có thực sự hiệu quả với mình hay không?? Đơn giản là bạn phải thử rồi tự rút ra kết luận cho mình, nhưng nên nhớ
-image: https://cuonggym.com/wp-content/uploads/2018/01/Bai-tap-nguc-cho-nu-Dumbbell-Bench-Press-women.jpg
+image: /assets/images/lich-tap-gym.webp
 date: 2022-12-09 16:15:02 +0700
-categories: course
+categories: news
 ---
 
 # **Lịch tập gym giảm cân cho nữ 5 buổi 1 tuần**

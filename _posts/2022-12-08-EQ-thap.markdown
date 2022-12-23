@@ -4,9 +4,9 @@ code: post
 css: post
 title: 5 điểm đặc trưng của người có EQ thấp điển hình.
 description: Đã qua 10 giờ đêm nhưng một cộng đồng nào đó trên mạng vẫn đang hoạt động rất tích cực. Chủ đề thảo luận chung của nhóm này là các thiết kế trong phần mềm PowerPoint (PPT). Các thành viên có thể đăng tác phẩm vừa làm xong lên nhóm nhờ mọi người cho lời khuyên. Các chủ bài đăng đều mong nhận được những lời lời khen và góp ý từ các thành viên khác trong nhóm, đặc biệt là từ quản trị viên (là một chuyên gia trong lĩnh vực này).
-image: https://kenh14cdn.com/203336854389633024/2022/12/8/photo-3-1670476590542511372834.jpg
+image: /assets/images/EQ-thap.webp
 date: 2022-12-08 16:15:02 +0700
-categories: jekyll update
+categories: news
 ---
 
 # **5 điểm đặc trưng của người có EQ thấp điển hình**
