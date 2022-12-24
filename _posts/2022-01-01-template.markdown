@@ -1,0 +1,12 @@
+---
+layout: post
+code: post
+css: post
+title: Template
+description: Template description
+image: /assets/images/template.jpg
+date: 2022-01-01 12:10:00 +0700
+categories: -news
+---
+
+# **Template File** 
