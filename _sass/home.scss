@@ -12,6 +12,7 @@
   .trending {
     @include column-mowarp();
     @include desktop() {
+      padding-bottom: 2%;
       @include row-nowrap();
     }
     @include tablet() {
