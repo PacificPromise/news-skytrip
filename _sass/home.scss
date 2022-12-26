@@ -44,7 +44,6 @@
     }
     .more-info {
       @include row-nowrap();
-      justify-content: center;
       align-items: baseline;
       box-sizing: border-box;
       border-bottom: 1px solid #ff6d19;
@@ -120,7 +119,7 @@
 
   .trending-2-title {
     @include title(19px, #222);
-    padding: 12px 15px 0;
+    padding: 12px 0px 0;
     font-weight: bold;
     background-image: linear-gradient(#ebebeb, #fff);
     overflow: hidden;
