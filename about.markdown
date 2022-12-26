@@ -9,9 +9,9 @@ layout: default
 ![Tux, the Linux mascot]({{ site.baseurl }}/assets/images/logo_skygofl_fb.webp)
 # **Giới Thiệu Website**
 
-### **[Sport.com](https://sport.com/)** là một website tổng hợp thông tin tiếng Việt hoàn toàn được điều khiển tự động bởi máy tính. Mỗi ngày gần 6500 tin tức từ gần 200 nguồn chính thức của các báo điện tử và trang tin điện tử Việt Nam được **[Sport.com](https://sport.com/)** tự động tổng hợp, phân loại, phát hiện các bài đăng lại, nhóm các bài viết liên quan và hiển thị theo sở thích đọc tin của từng độc giả.
+### **[news.skytrips.vn](https://news.skytrips.vn/)** là một website tổng hợp thông tin tiếng Việt hoàn toàn được điều khiển tự động bởi máy tính. Mỗi ngày gần 6500 tin tức từ gần 200 nguồn chính thức của các báo điện tử và trang tin điện tử Việt Nam được **[news.skytrips.vn](https://news.skytrips.vn/)** tự động tổng hợp, phân loại, phát hiện các bài đăng lại, nhóm các bài viết liên quan và hiển thị theo sở thích đọc tin của từng độc giả.
 
-### Cách đọc tin trực tuyến của mọi người hiện nay thường là thụ động. Chúng ta vào một (hoặc nhiều) nguồn tin ưa thích, tìm những chuyên mục ưa thích và đọc theo kiểu "có gì đọc nấy". **[Sport.com](https://sport.com/)** ra đời để làm thay đổi phần nào thói quen đó, giúp cho độc giả Việt Nam có thể chủ động nhiều hơn với tin tức trực tuyến, món ăn tinh thần mỗi ngày. **[Sport.com](https://sport.com/)** là câu trả lời cho những vấn đề sau:
+### Cách đọc tin trực tuyến của mọi người hiện nay thường là thụ động. Chúng ta vào một (hoặc nhiều) nguồn tin ưa thích, tìm những chuyên mục ưa thích và đọc theo kiểu "có gì đọc nấy". **[news.skytrips.vn](https://news.skytrips.vn/)** ra đời để làm thay đổi phần nào thói quen đó, giúp cho độc giả Việt Nam có thể chủ động nhiều hơn với tin tức trực tuyến, món ăn tinh thần mỗi ngày. **[news.skytrips.vn](https://news.skytrips.vn/)** là câu trả lời cho những vấn đề sau:
 
 * Tôi muốn biết những sự kiện hot nhất diễn ra trong ngày hoặc trong thời gian vừa qua ?
 * Tôi muốn theo dõi tất cả các thông tin (tin tức, videoclip, hình ảnh) về một chủ đề mà tôi quan tâm (vd : Điện ảnh Hàn Quốc, Web 2.0 ...)
@@ -26,19 +26,3 @@ layout: default
 3. **Nhóm các bài liên quan:** Hệ thống tự động phát hiện các bài liên quan (không phải là copy) về cùng một chủ đề nào đó.
 4. **Bóc tách từ khóa:** Hệ thống tự động tách ra các từ khóa (keyword) của bài viết, giúp người đọc dễ dàng tìm kiếm các thông tin liên quan đa chiều.
 5. **Gợi ý thông minh:** Dựa trên phân tích thói quen đọc tin của độc giả, hệ thống có thể tự động đưa ra những gợi ý về những bài viết mà độc giả quan tâm.
-
-<!-- [Post wellcome to jekyll]({{ site.baseurl }}/jekyll/update/2022/11/30/welcome-to-jekyll) -->
-
-
-
-<!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-[jekyll-organization]: https://github.com/jekyll -->
