@@ -49,4 +49,4 @@ Tháp B Tòa nhà SailS Tower - Kiến Hưng - Hà Đông - Hà Nội
 ### [XEM BÁO GIÁ CHI TIẾT]({{site.baseurl}}/course/)
 
 
-![Tux, the Linux mascot]({{ site.baseurl }}/assets/images/logo_skygofl_fb.webp)
+![Tux, the Linux mascot]({{ site.baseurl }}/assets/images/skytimes_logo_green_text.webp)
