@@ -13,6 +13,8 @@ categories: news
 
 # đây là bài demo
 
-z3982402663328_f0d8bb116eeeb8dda80f37f18b523a9c.jpg![đây là ảnh demo]({{ site.baseurl }}/assets/images/handicap-thuoc-do-danh-gia-nang-luc-cua-golfer-1.webp)
+Dưới đây là ảnh demo
+
+![đây là ảnh demo]({{ site.baseurl }}/assets/images/handicap-thuoc-do-danh-gia-nang-luc-cua-golfer-1.webp)
 
 ![ảnh thứ 2](https://kenh14cdn.com/203336854389633024/2022/12/6/photo-2-16703395433551614531847.jpg)

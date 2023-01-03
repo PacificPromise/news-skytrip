@@ -14,8 +14,8 @@ categories: news
 
 1. Tạo tài khoản github và gửi id github cho quản trị viên để được add vào làm thành viên chỉnh sửa nội dung. sau khi hoàn thành đăng kí sẽ có dạng
 
-   - ví dụ https://github.com/tuanngocptn thì id là tuanngocptn
-   - nơi tiến hành đăng bài (Kho lưu trữ): https://github.com/tuanngocptn/sportwebsite/tree/gh-pages
+   - ví dụ [https://github.com/tuanngocptn](https://github.com/tuanngocptn) thì id là tuanngocptn
+   - nơi tiến hành đăng bài (Kho lưu trữ): [https://github.com/PacificPromise/news-skytrip/tree/gh-pages](https://github.com/PacificPromise/news-skytrip/tree/gh-pages)
 
 2. Tải phần mềm chỉnh sửa markdown để thêm và sửa nội dung. ví dụ như typora (lên mạng kéo crack về). 
 
@@ -41,7 +41,7 @@ categories: news
    - 2022-10-30-nhung-dieu-thu-vi-ve-hio-cu-danh-dang-cap-bac-nhat-trong-golf.markdown
    - Hoặc có thể vô thư mục _posts trong kho lưu trữ để xem thêm về cách đặt tên.
 
-6. Tiến hành chỉnh sửa file với nội dung đã chuẩn bị trước và ảnh đã upload phía trên. (sử dụng markdown để thao tác với văn bản https://www.markdownguide.org/cheat-sheet/).
+6. Tiến hành chỉnh sửa file với nội dung đã chuẩn bị trước và ảnh đã upload phía trên. (sử dụng markdown để thao tác với văn bản [link hướng hẫn](https://www.markdownguide.org/cheat-sheet/)).
 
    - bao gồm phần thông tin cơ bản của bài đăng -> copy từ các bài cũ qua
    - phần nội dung, 
