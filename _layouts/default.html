@@ -20,13 +20,33 @@
       href="{{ site.baseurl }}/assets/css/{{ page.css }}.css"
     />
     {% endif %}
+
+    <!-- Google Tag Manager -->
+    <script>
+      ;(function (w, d, s, l, i) {
+        w[l] = w[l] || []
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" })
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : ""
+        j.async = true
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl
+        f.parentNode.insertBefore(j, f)
+      })(window, document, "script", "dataLayer", "GTM-WK2CJ4H")
+    </script>
+    <!-- End Google Tag Manager -->
   </head>
 
   <body>
     <header class="header">
       <nav class="top-nav" id="top-nav">
         <a href="{{ site.baseurl }}/" class="logo">
-          <img width="100%" height="100%" src="{{ site.baseurl }}/assets/images/skytimes_logo_green_text.webp" alt="Logo" />
+          <img
+            width="100%"
+            height="100%"
+            src="{{ site.baseurl }}/assets/images/skytimes_logo_green_text.webp"
+            alt="Logo"
+          />
         </a>
         {% if page.code == 'home' %}
         <a href="{{ site.baseurl }}/" class="active">Trang chủ</a>
@@ -52,46 +72,91 @@
     </header>
     <div class="content">{{ content }}</div>
     <footer class="footer">
-      <img src="{{ site.baseurl }}/assets/images/skytimes_logo_white.webp" alt="">
+      <img
+        src="{{ site.baseurl }}/assets/images/skytimes_logo_white.webp"
+        alt=""
+      />
       <div class="feedback">
         <h3>Ý KIẾN BÀI VIẾT</h3>
         <div class="e-mail">
-          <a style="background-image: url('{{ site.baseurl }}/assets/images/icon_mail_mb.webp');" href="mailto:skytimes.vn@gmail.com">skytimes.vn@gmail.com</a> 
+          <a
+            style="background-image: url('{{ site.baseurl }}/assets/images/icon_mail_mb.webp');"
+            href="mailto:skytimes.vn@gmail.com"
+            >skytimes.vn@gmail.com</a
+          >
         </div>
       </div>
       <div class="content-cooperation">
         <h3>HỢP TÁC NỘI DUNG</h3>
         <div class="e-mail">
-          <a style="background-image: url('{{ site.baseurl }}/assets/images/icon_mail_mb.webp');"  href="mailto:skytimes.vn@gmail.com">skytimes.vn@gmail.com</a> 
-          <a style="background-image: url('{{ site.baseurl }}/assets/images/icon_telephone_mb.webp');"  href="tel:+84858565659">085.8565659</a>
+          <a
+            style="background-image: url('{{ site.baseurl }}/assets/images/icon_mail_mb.webp');"
+            href="mailto:skytimes.vn@gmail.com"
+            >skytimes.vn@gmail.com</a
+          >
+          <a
+            style="background-image: url('{{ site.baseurl }}/assets/images/icon_telephone_mb.webp');"
+            href="tel:+84858565659"
+            >085.8565659</a
+          >
         </div>
       </div>
       <div class="ad">
         <h3>HỖ TRỢ QUẢNG CÁO</h3>
         <div class="e-mail">
-          <a style="background-image: url('{{ site.baseurl }}/assets/images/icon_mail_mb.webp');"  href="mailto:skytimes.vn@gmail.com">skytimes.vn@gmail.com</a> 
-          <a style="background-image: url('{{ site.baseurl }}/assets/images/icon_telephone_mb.webp');"  href="tel:+84858565659">085.8565659</a>
+          <a
+            style="background-image: url('{{ site.baseurl }}/assets/images/icon_mail_mb.webp');"
+            href="mailto:skytimes.vn@gmail.com"
+            >skytimes.vn@gmail.com</a
+          >
+          <a
+            style="background-image: url('{{ site.baseurl }}/assets/images/icon_telephone_mb.webp');"
+            href="tel:+84858565659"
+            >085.8565659</a
+          >
         </div>
       </div>
       <div class="adress">
         <h3>TRỤ SỞ HÀ NỘI</h3>
-        <p>
-          Tháp B Tòa nhà SailS Tower - Kiến Hưng - Hà Đông - Hà Nội.
-        </p>
+        <p>Tháp B Tòa nhà SailS Tower - Kiến Hưng - Hà Đông - Hà Nội.</p>
 
-        <p>Skytimes là công ty Truyền thông uy tín chuyên cung cấp giải pháp tổng thể về Video quảng cáo từ việc xây dựng chiến lược, ý tưởng, quay phim tiền kỳ, dựng hậu kỳ Video và cuối cùng là phát hành Video quảng cáo đạt hiệu quả tối ưu nhất cho khách hàng.</p>
+        <p>
+          Skytimes là công ty Truyền thông uy tín chuyên cung cấp giải pháp tổng
+          thể về Video quảng cáo từ việc xây dựng chiến lược, ý tưởng, quay phim
+          tiền kỳ, dựng hậu kỳ Video và cuối cùng là phát hành Video quảng cáo
+          đạt hiệu quả tối ưu nhất cho khách hàng.
+        </p>
       </div>
-      <div class="copyright"> 
+      <div class="copyright">
         <div class="contact-fb">
-          <a target="_blank" href="https://www.facebook.com/skygolfvietnamese/"><img src="{{ site.baseurl }}/assets/images/fb-logo-balck.webp" alt="facebook"></a>
-          <a target="_blank" href="https://www.facebook.com/t/skygolfvietnamese/"><img src="{{ site.baseurl }}/assets/images/msg-logo-black.webp" alt="facebook"></a>
+          <a target="_blank" href="https://www.facebook.com/skygolfvietnamese/"
+            ><img
+              src="{{ site.baseurl }}/assets/images/fb-logo-balck.webp"
+              alt="facebook"
+          /></a>
+          <a
+            target="_blank"
+            href="https://www.facebook.com/t/skygolfvietnamese/"
+            ><img
+              src="{{ site.baseurl }}/assets/images/msg-logo-black.webp"
+              alt="facebook"
+          /></a>
         </div>
         <p>© Copyright 2022 - BẢN QUYỀN CỦA SKYTIMES</p>
-        <a href="https://www.dmca.com/site-report/ClaimSite.aspx?site=news.skytrips.vn" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=055fda46-1a91-4d54-b8eb-7233e4a6750b"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+        <a
+          href="https://www.dmca.com/site-report/ClaimSite.aspx?site=news.skytrips.vn"
+          title="DMCA.com Protection Status"
+          class="dmca-badge"
+        >
+          <img
+            src="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=055fda46-1a91-4d54-b8eb-7233e4a6750b"
+            alt="DMCA.com Protection Status"
+        /></a>
+        <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
       </div>
       <div class="back-to-top">
         <button aria-label="back-to-top" class="back-to-top-button">
-          <a aria-label="back-to-top-arrow"  href="#">
+          <a aria-label="back-to-top-arrow" href="#">
             <div class="right_arrow"></div>
           </a>
         </button>
@@ -104,40 +169,40 @@
             <a target="_blank" href="{{ site.baseurl }}/about">THÔNG TIN</a>
           </li>
           <li class="menu">
-            <a target="_blank"href="{{site.baseurl}}/course/">KHÓA HỌC</a> 
+            <a target="_blank" href="{{site.baseurl}}/course/">KHÓA HỌC</a>
           </li>
           <li class="menu">
-            <a target="_blank"href="{{ site.baseurl }}/about">THÔNG TIN</a>
+            <a target="_blank" href="{{ site.baseurl }}/about">THÔNG TIN</a>
           </li>
           <li class="menu">
-            <a target="_blank"href="{{site.baseurl}}/course/">KHÓA HỌC</a> 
+            <a target="_blank" href="{{site.baseurl}}/course/">KHÓA HỌC</a>
           </li>
           <li class="menu">
-            <a target="_blank"href="{{ site.baseurl }}/about">THÔNG TIN</a>
+            <a target="_blank" href="{{ site.baseurl }}/about">THÔNG TIN</a>
           </li>
           <li class="menu">
-            <a target="_blank"href="{{site.baseurl}}/course/">KHÓA HỌC</a> 
+            <a target="_blank" href="{{site.baseurl}}/course/">KHÓA HỌC</a>
           </li>
           <li class="menu">
-            <a target="_blank"href="{{ site.baseurl }}/about">THÔNG TIN</a>
+            <a target="_blank" href="{{ site.baseurl }}/about">THÔNG TIN</a>
           </li>
           <li class="menu">
-            <a target="_blank"href="{{site.baseurl}}/course/">KHÓA HỌC</a> 
+            <a target="_blank" href="{{site.baseurl}}/course/">KHÓA HỌC</a>
           </li>
           <li class="menu">
-            <a target="_blank"href="{{ site.baseurl }}/about">THÔNG TIN</a>
+            <a target="_blank" href="{{ site.baseurl }}/about">THÔNG TIN</a>
           </li>
           <li class="menu">
-            <a target="_blank"href="{{site.baseurl}}/course/">KHÓA HỌC</a> 
+            <a target="_blank" href="{{site.baseurl}}/course/">KHÓA HỌC</a>
           </li>
           <li class="menu">
-            <a target="_blank"href="{{ site.baseurl }}/about">THÔNG TIN</a>
+            <a target="_blank" href="{{ site.baseurl }}/about">THÔNG TIN</a>
           </li>
           <li class="menu">
-            <a target="_blank"href="{{site.baseurl}}/course/">KHÓA HỌC</a> 
+            <a target="_blank" href="{{site.baseurl}}/course/">KHÓA HỌC</a>
           </li>
           <li class="menu">
-            <a target="_blank"href="{{ site.baseurl }}/about">THÔNG TIN</a>
+            <a target="_blank" href="{{ site.baseurl }}/about">THÔNG TIN</a>
           </li>
         </ul>
       </div>
@@ -147,30 +212,41 @@
       <div class="clearfix">
         <div class="contribute-content">
           <a href="{{ site.baseurl }}/"
-            ><img src="{{ site.baseurl }}/assets/images/skytimes_logo_green.webp" alt="logo"
-          /></a> 
+            ><img
+              src="{{ site.baseurl }}/assets/images/skytimes_logo_green.webp"
+              alt="logo"
+          /></a>
           <div class="user-response-clearfix">
             <span class="group-title"> ĐÓNG GÓP NỘI DUNG </span>
             <div class="questions-md">
-              <a target="_blank" id="questions" href="{{ site.baseurl }}/about">GIỚI THIỆU VỀ CHÚNG TÔI</a> 
-              <a href="mailto:skytimes.vn@gmail.com">skytimes.vn@gmail.com</a> 
+              <a target="_blank" id="questions" href="{{ site.baseurl }}/about"
+                >GIỚI THIỆU VỀ CHÚNG TÔI</a
+              >
+              <a href="mailto:skytimes.vn@gmail.com">skytimes.vn@gmail.com</a>
             </div>
             <p>
-              SKYTIMES rất hoan nghênh khách hàng gửi thông tin và góp ý cho chúng
-              tôi.
+              SKYTIMES rất hoan nghênh khách hàng gửi thông tin và góp ý cho
+              chúng tôi.
             </p>
           </div>
         </div>
-        <div style="background-image: url('{{ site.baseurl }}/assets/images/fb-cover-skygolf-img-2.webp');" class="facebook">
+        <div
+          style="background-image: url('{{ site.baseurl }}/assets/images/fb-cover-skygolf-img-2.webp');"
+          class="facebook"
+        >
           <div class="facebook-page">
             <a
               target="_blank"
               class="facebook-page-logo"
               href="https://www.facebook.com/skygolfvietnamese/"
-              ><img src="{{ site.baseurl }}/assets/images/fb_logo.webp" alt="logo"
+              ><img
+                src="{{ site.baseurl }}/assets/images/fb_logo.webp"
+                alt="logo"
             /></a>
             <div class="facebook-page-info">
-              <a target="_blank" href="https://www.facebook.com/skygolfvietnamese/"
+              <a
+                target="_blank"
+                href="https://www.facebook.com/skygolfvietnamese/"
                 >Skygolf</a
               >
             </div>
@@ -182,15 +258,15 @@
         <!-- địa chỉ -->
         <div class="footer-bottom-left">
           <div class="footer-bottom-left-1">
-            <h3>TRỤ SỞ HÀ NỘI</h3> 
-            <p>
-              Tháp B Tòa nhà SailS Tower - Kiến Hưng - Hà Đông - Hà Nội.
-            </p>
-            <a style="background-image: url('{{ site.baseurl }}/assets/images/logo_skygofl_fb.webp');" target="_blank"
+            <h3>TRỤ SỞ HÀ NỘI</h3>
+            <p>Tháp B Tòa nhà SailS Tower - Kiến Hưng - Hà Đông - Hà Nội.</p>
+            <a
+              style="background-image: url('{{ site.baseurl }}/assets/images/logo_skygofl_fb.webp');"
+              target="_blank"
               rel="nofollow"
               href="https://www.google.com/maps/place/Chung+c%C6%B0+s%C3%B4ng+nhu%E1%BB%87/@20.9637997,105.794034,16z/data=!4m12!1m6!3m5!1s0x0:0x94fcb05a388cc232!2zQ2h1bmcgY8awIHPDtG5nIG5odeG7hw!8m2!3d20.9592912!4d105.7987761!3m4!1s0x0:0x94fcb05a388cc232!8m2!3d20.9592912!4d105.7987761"
               >XEM VỊ TRÍ</a
-            > 
+            >
           </div>
         </div>
         <!-- end footer footer-bottom-left -->
@@ -199,22 +275,35 @@
           <!-- hợp tác truyền thông -->
           <div class="associate">
             <p class="col-title">hợp tác truyền thông</p>
-            <a style="background-image: url('{{ site.baseurl }}/assets/images/icon_telephone.webp');" href="tel:+84858565659">085.8565659</a> 
-            <a style="background-image: url('{{ site.baseurl }}/assets/images/icon_mail.webp');"
+            <a
+              style="background-image: url('{{ site.baseurl }}/assets/images/icon_telephone.webp');"
+              href="tel:+84858565659"
+              >085.8565659</a
+            >
+            <a
+              style="background-image: url('{{ site.baseurl }}/assets/images/icon_mail.webp');"
               rel="nofollow"
               href="mailto:skytimes.vn@gmail.com"
               class="associate-mail"
               >skytimes.vn@gmail.com</a
-            > 
+            >
           </div>
 
           <!-- liên hệ quảng cáo -->
           <div class="associate">
             <p class="col-title">liên hệ quảng cáo</p>
-            <a style="background-image: url('{{ site.baseurl }}/assets/images/icon_telephone.webp');" href="tel:+84858565659">085.8565659</a>
-            <a style="background-image: url('{{ site.baseurl }}/assets/images/icon_mail.webp');" rel="nofollow" href="skytimes.vn@gmail.com" class="associate-mail"
+            <a
+              style="background-image: url('{{ site.baseurl }}/assets/images/icon_telephone.webp');"
+              href="tel:+84858565659"
+              >085.8565659</a
+            >
+            <a
+              style="background-image: url('{{ site.baseurl }}/assets/images/icon_mail.webp');"
+              rel="nofollow"
+              href="skytimes.vn@gmail.com"
+              class="associate-mail"
               >skytimes.vn@gmail.com</a
-            > 
+            >
             <div class="support">
               <a
                 class="chat"
@@ -223,23 +312,56 @@
               >
                 CHAT VỚI TƯ VẤN VIÊN
               </a>
-              <a target="_blank" href="{{ site.baseurl }}/contact" class="detail-ad"> XEM CHI TIẾT </a>
+              <a
+                target="_blank"
+                href="{{ site.baseurl }}/contact"
+                class="detail-ad"
+              >
+                XEM CHI TIẾT
+              </a>
             </div>
           </div>
         </div>
         <!-- end footer-bottom-mid -->
         <div class="footer-bottom-right">
-          <div style="background-image: url('{{ site.baseurl }}/assets/images/skytimes_logo_black.webp');" class="logo-corp" target="_blank"></div>
+          <div
+            style="background-image: url('{{ site.baseurl }}/assets/images/skytimes_logo_black.webp');"
+            class="logo-corp"
+            target="_blank"
+          ></div>
           <p class="col-title">
             <span>© Copyright 2022 – </span>Bản quyền của Skytimes
-          </p> 
+          </p>
           <p>
-            Skytimes là công ty Truyền thông uy tín chuyên cung cấp giải pháp tổng thể về Video quảng cáo từ việc xây dựng chiến lược, ý tưởng, quay phim tiền kỳ, dựng hậu kỳ Video và cuối cùng là phát hành Video quảng cáo đạt hiệu quả tối ưu nhất cho khách hàng.
-          </p> 
-          <a href="https://www.dmca.com/site-report/ClaimSite.aspx?site=news.skytrips.vn" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=055fda46-1a91-4d54-b8eb-7233e4a6750b"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+            Skytimes là công ty Truyền thông uy tín chuyên cung cấp giải pháp
+            tổng thể về Video quảng cáo từ việc xây dựng chiến lược, ý tưởng,
+            quay phim tiền kỳ, dựng hậu kỳ Video và cuối cùng là phát hành Video
+            quảng cáo đạt hiệu quả tối ưu nhất cho khách hàng.
+          </p>
+          <a
+            href="https://www.dmca.com/site-report/ClaimSite.aspx?site=news.skytrips.vn"
+            title="DMCA.com Protection Status"
+            class="dmca-badge"
+          >
+            <img
+              src="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=055fda46-1a91-4d54-b8eb-7233e4a6750b"
+              alt="DMCA.com Protection Status"
+          /></a>
+          <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
         </div>
       </div>
     </div>
     <script src="{{ site.baseurl }}/assets/js/default.js"></script>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WK2CJ4H"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
   </body>
 </html>
