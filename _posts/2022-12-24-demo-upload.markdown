@@ -15,6 +15,6 @@ categories: news
 
 Dưới đây là ảnh demo
 
-![đây là ảnh demo]({{ site.baseurl }}/assets/images/handicap-thuoc-do-danh-gia-nang-luc-cua-golfer-1.webp)
+![đây là ảnh demo](https://github.com/PacificPromise/news-skytrip/blob/gh-pages/assets/putting%20golf.jpg)
 
-![ảnh thứ 2](https://kenh14cdn.com/203336854389633024/2022/12/6/photo-2-16703395433551614531847.jpg)
+
