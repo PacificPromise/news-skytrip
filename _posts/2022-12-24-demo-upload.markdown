@@ -15,6 +15,7 @@ categories: news
 
 Dưới đây là ảnh demo
 
-![đây là ảnh demo](https://github.com/PacificPromise/news-skytrip/blob/gh-pages/assets/putting%20golf.jpg)
+![đây là ảnh demo](![image](https://github.com/PacificPromise/news-skytrip/blob/gh-pages/assets/putting%20golf.jpg?raw=true)
+)
 
 
